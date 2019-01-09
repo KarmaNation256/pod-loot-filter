@@ -1,5 +1,5 @@
 # Elitist Loot
-**Path of Diablo Community**
+[**Path of Diablo Community**](https://www.reddit.com/r/pathofdiablo/)
 
 ## Discord Channel
 [Click Here!](https://discord.gg/yRj9wAn)
