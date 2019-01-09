@@ -19,3 +19,4 @@
 ## Guides
 
 - [Full Screen Borderless Window Mode](https://github.com/KarmaNation256/pod-loot-filter/wiki/Fullscreen-Borderless-Window-Mode)
+- [Vector T Too Long Error NP++](https://github.com/KarmaNation256/pod-loot-filter/wiki/Vector--T--Too-Long-Error)
