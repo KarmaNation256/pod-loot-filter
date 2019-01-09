@@ -19,4 +19,5 @@
 ## Guides
 
 - [Full Screen Borderless Window Mode](https://github.com/KarmaNation256/pod-loot-filter/wiki/Fullscreen-Borderless-Window-Mode)
+- [Adding Mouse Wheel as a Hotkey](https://github.com/KarmaNation256/pod-loot-filter/wiki/Adding-Mouse-Wheel-as-a-Hotkey)
 - [Vector T Too Long Error NP++](https://github.com/KarmaNation256/pod-loot-filter/wiki/Vector--T--Too-Long-Error)
