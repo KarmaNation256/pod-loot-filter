@@ -3,6 +3,7 @@ A Path of Diablo community
 
 ## Discord Channels
 [Elitist Loot](https://discord.gg/yRj9wAn)
+
 [Path of Diablo](https://discordapp.com/invite/0cUlOSBTPbxECO4z)
 
 ## Loot Filter
