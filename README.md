@@ -7,7 +7,7 @@ A Path of Diablo community
 [Path of Diablo](https://discordapp.com/invite/0cUlOSBTPbxECO4z)
 
 ## Loot Filter
-[Click Here!](https://github.com/)
+[Pure Karma](https://github.com/)
 
 ## Syntax Highlighting
 [Click Here!](https://github.com/)
