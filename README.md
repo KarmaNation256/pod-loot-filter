@@ -4,7 +4,7 @@
 - [Path of Diablo](https://discordapp.com/invite/0cUlOSBTPbxECO4z)
 
 ## Loot Filter
-- [Pure Karma](https://github.com/KarmaNation256/pod-loot-filter/blob/master/item.filter)
+- [Pure Karma](https://raw.githubusercontent.com/KarmaNation256/pod-loot-filter/master/item.filter)
 
 ## Syntax Highlighting
 - [Pod Syntax](https://dl.dropboxusercontent.com/s/uk8c4v3i29x5b34/podsyntaxv1.xml?dl=0)
