@@ -7,7 +7,7 @@
 - [Pure Karma](https://github.com/KarmaNation256/pod-loot-filter/blob/master/item.filter)
 
 ## Syntax Highlighting
-- [Pod Syntax](https://dl.dropboxusercontent.com/s/gclyipuwv4bgrym/PodSyntaxClean.xml?dl=0)
+- [Pod Syntax](https://dl.dropboxusercontent.com/s/uk8c4v3i29x5b34/podsyntaxv1.xml?dl=0)
 
 ## Advanced Text Editor
 - [Notepad++](https://notepad-plus-plus.org/download)
