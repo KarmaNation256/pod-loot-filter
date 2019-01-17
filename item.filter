@@ -1,4 +1,4 @@
-﻿//╔══════════════════════════════════════════╗
+//╔══════════════════════════════════════════╗
 //║ Look Up Item Codes @ Path of Diablo Wiki ║
 //║ Pure Karma Loot Filter 7.0               ║
 //║ Patch: Graphite                          ║
@@ -461,6 +461,7 @@ ItemDisplay[SET !ID rin ILVL>86]: %GREEN%%NAME%
 ItemDisplay[SET !ID rin ILVL<87]: %GREEN%÷ %DGREEN%%NAME% %GREEN%÷
 ItemDisplay[SET !ID uar]: %GREEN%¤¤¤¤¤ %PURPLE%Immortal King's Soul Cage %GREEN%¤¤¤¤¤
 ItemDisplay[SET !ID uth]: %GREEN%¤¤¤¤¤ %PURPLE%Tal Rasha's Guardianship %GREEN%¤¤¤¤¤
+ItemDisplay[SET !ID 7qr]: %GREEN%¤¤¤¤¤ %PURPLE%Natalya's Mark %GREEN%¤¤¤¤¤
 ItemDisplay[SET !ID oba]: %GREEN%¤¤¤ %PURPLE%Tal Rasha's Lidless Eye %GREEN%¤¤¤
 ItemDisplay[SET !ID 7ws]: %GREEN%¤¤¤ %PURPLE%Griswold's Redemption %GREEN%¤¤¤
 ItemDisplay[SET !ID ci3]: %GREEN%¤¤¤ %PURPLE%M'avina's True Sight %GREEN%¤¤¤
@@ -480,7 +481,6 @@ ItemDisplay[SET !ID xar]: %GREEN%¤¤ Griswold's Heart ¤¤
 ItemDisplay[SET !ID urn]: %GREEN%¤¤ Griswold's Valor ¤¤
 ItemDisplay[SET !ID paf]: %GREEN%¤¤ Griswold's Honor ¤¤
 ItemDisplay[SET !ID zvb]: %GREEN%¤¤ M'avina's Tenet ¤¤
-ItemDisplay[SET !ID 7qr]: %GREEN%¤¤ Natalya's Mark ¤¤
 ItemDisplay[SET !ID xmb]: %GREEN%¤¤ Natalya's Soul ¤¤
 ItemDisplay[SET !ID 6cs]: %GREEN%¤¤ Naj's Puzzler ¤¤
 ItemDisplay[SET !ID ult]: %GREEN%¤¤ Naj's Light Plate ¤¤
@@ -498,7 +498,7 @@ ItemDisplay[SET !ID uld]: %GREEN%¤ %DGREEN%M'avina's Embrace %GREEN%¤
 ItemDisplay[SET !ID xtg]: %GREEN%¤ %DGREEN%M'avina's Icy Clutch %GREEN%¤
 ItemDisplay[SET !ID ba5]: %GREEN%¤ %DGREEN%Immortal King's Will %GREEN%¤
 ItemDisplay[SET !ID xhg]: %GREEN%¤ %DGREEN%Immortal King's Forge %GREEN%¤
-ItemDisplay[SET !ID 7m7]: %BLACK%¤ %DGREEN%wow, a maul %BLACK%lol ¤
+ItemDisplay[SET !ID 7m7]: %GREEN%¤ %DGREEN%Immortal King's Maul %GREEN%¤
 ItemDisplay[SET !ID lbl]: %GREEN%¤ %DGREEN%Death's Hand %GREEN%¤
 ItemDisplay[SET !ID lgl]: %GREEN%¤ %DGREEN%Death's Guard %GREEN%¤
 ItemDisplay[SET !ID vbt]: %GREEN%¤ %DGREEN%Heavy Boots %GREEN%¤
@@ -516,6 +516,7 @@ ItemDisplay[SET !ID xhl]: %GREEN%¤ %DGREEN%Sazabi's Mental Sheath %GREEN%¤
 ItemDisplay[SET !ID 7ls]: %GREEN%¤ %DGREEN%Sazabi's Cobalt Redeemer %GREEN%¤
 ItemDisplay[SET !ID upl]: %GREEN%¤ %DGREEN%Sazabi's Ghost Liberator %GREEN%¤
 ItemDisplay[SET !ID 7wd]: %GREEN%¤ %DGREEN%Bul-Kathos' Tribal Guardian %GREEN%¤
+ItemDisplay[SET !ID tbt]: %GREEN%¤ %DGREEN%Vidala's Fetlock %GREEN%¤
 // SET Filter
 ItemDisplay[SET !ID ILVL<76]: %NAME%
 ItemDisplay[SET !ID ILVL>75]:
@@ -1287,7 +1288,7 @@ ItemDisplay[NMAG WP6]:
 //║ Unique EQX ║
 //╚════════════╝
 ItemDisplay[UNI !ID cm3]: %GOLD%¤ Gheed's Fortune ¤
-ItemDisplay[UNI !ID cm4]: %GOLD%¤ Enchant Me! ¤ %RED%>.<
+ItemDisplay[UNI !ID cm4]: %GOLD%¤ Horadrim Sigil ¤ %RED%>.<
 ItemDisplay[UNI !ID cm1]: %PURPLE%¤¤¤¤¤¤¤¤ %RED%ANNIHILUS %PURPLE%¤¤¤¤¤¤¤¤
 ItemDisplay[UNI !ID cm2]: %PURPLE%¤¤¤¤¤¤¤¤¤ %YELLOW%TORCH %PURPLE%¤¤¤¤¤¤¤¤¤
 ItemDisplay[UNI !ID amu]: %GOLD%÷%RED%÷÷÷÷÷÷÷÷÷%GOLD%÷ %PURPLE%AMULET %GOLD%÷%RED%÷÷÷÷÷÷÷÷÷%GOLD%÷
@@ -1473,14 +1474,14 @@ ItemDisplay[UNI !ID ci2 ETH]: %GOLD%¤ eth Kira's Guardian ¤
 //╚════════════╝
 // WP1
 ItemDisplay[UNI !ID 7wa !ETH]: %GOLD%¤¤¤¤¤¤ %PURPLE%Death Cleaver %GOLD%¤¤¤¤¤¤
+ItemDisplay[UNI !ID 9mp !ETH]: %GOLD%¤¤¤¤¤¤ %PURPLE%Pompeii's Wrath %GOLD%¤¤¤¤¤¤
 ItemDisplay[UNI !ID 7mp !ETH]: %GOLD%¤¤¤ %PURPLE%Cranebeak %GOLD%¤¤¤
 ItemDisplay[UNI !ID 7gi !ETH]: %GOLD%¤¤¤ %PURPLE%Executioner's Justice %GOLD%¤¤¤
-ItemDisplay[UNI !ID 72a !ETH]: %GOLD%¤ Rune Master ¤
+ItemDisplay[UNI !ID 72a !ETH]: %GOLD%¤¤¤ %PURPLE%Rune Master %GOLD%¤¤¤
 ItemDisplay[UNI !ID 9ax !ETH]: %GOLD%¤ Butcher's Pupil ¤
 ItemDisplay[UNI !ID 9gi !ETH]: %GOLD%¤ The Minotaur ¤
 ItemDisplay[UNI !ID 7bt !ETH]: %GOLD%¤ Hellslayer ¤
 ItemDisplay[UNI !ID 92a !ETH]: %GOLD%¤ %WHITE%Islestrike %GOLD%¤
-ItemDisplay[UNI !ID 9mp !ETH]: %GOLD%¤ %WHITE%Pompeii's Wrath %GOLD%¤
 ItemDisplay[UNI !ID 9wa !ETH]: %GOLD%¤ %WHITE%Guardian Naga %GOLD%¤
 ItemDisplay[UNI !ID 9ba !ETH]: %GOLD%¤ %WHITE%Spellsteel %GOLD%¤
 ItemDisplay[UNI !ID 9ga !ETH]: %GOLD%¤ %WHITE%Boneslayer Blade %GOLD%¤
@@ -1552,7 +1553,7 @@ ItemDisplay[UNI !ID scm ETH]: %GOLD%¤ %WHITE%eth Blood Crescent %GOLD%¤
 ItemDisplay[UNI !ID wsd ETH]: %GOLD%¤ %WHITE%eth Culwen's Point %GOLD%¤
 // WP4
 ItemDisplay[UNI !ID dgr !ETH]: %GOLD%¤ %RED%Gull %GOLD%¤
-ItemDisplay[UNI !ID 7kr !ETH]: %GOLD%¤ %PURPLE%Fleshripper %GOLD%¤
+ItemDisplay[UNI !ID 7kr !ETH]: %GOLD%¤¤¤¤¤ %PURPLE%Fleshripper %GOLD%¤¤¤¤¤
 ItemDisplay[UNI !ID 7dg !ETH]: %GOLD%¤ Wizardspike ¤
 ItemDisplay[UNI !ID bld !ETH]: %GOLD%¤ %WHITE%Spectral Shard %GOLD%¤
 ItemDisplay[UNI !ID 9bl !ETH]: %GOLD%¤ %WHITE%Stormspike %GOLD%¤
@@ -1591,7 +1592,7 @@ ItemDisplay[UNI !ID 7br ETH]: %GOLD%¤ %WHITE% eth Viperfork %GOLD%¤
 // WP8
 ItemDisplay[UNI !ID 7s8 !ETH]: %GOLD%¤¤¤ %PURPLE%The Reaper's Toll %GOLD%¤¤¤
 ItemDisplay[UNI !ID 7pa !ETH]: %GOLD%¤¤¤ %PURPLE%Tomb Reaver %GOLD%¤¤¤
-ItemDisplay[UNI !ID 7wc !ETH]: %GOLD%¤ %RED%Stormspire %GOLD%¤
+ItemDisplay[UNI !ID 7wc !ETH]: %GOLD%¤¤¤ %PURPLE%Stormspire %GOLD%¤¤¤
 ItemDisplay[UNI !ID 7o7 !ETH]: %GOLD%¤ %WHITE%Bonehew %GOLD%¤
 ItemDisplay[UNI !ID hal !ETH]: %GOLD%¤ %WHITE%Woestave %GOLD%¤
 ItemDisplay[UNI !ID 9s8 !ETH]: %GOLD%¤ %WHITE%Athena's Wrath %GOLD%¤
@@ -1617,7 +1618,7 @@ ItemDisplay[UNI !ID rxb]: %GOLD%¤ %RED%Doomslinger %GOLD%¤
 ItemDisplay[UNI !ID 8hx]: %GOLD%¤ Buriza-Do Kyanon ¤
 ItemDisplay[UNI !ID 8rx]: %GOLD%¤ Demon Machine ¤
 ItemDisplay[UNI !ID 6rx]: %GOLD%¤ %WHITE%Gut Siphon %GOLD%¤
-ItemDisplay[UNI !ID 8mx]: %GOLD%¤ %WHITE%Pus Spitter %GOLD%¤
+ItemDisplay[UNI !ID 8mx]: %GOLD%¤¤¤ %RED%Pus Spitter %GOLD%¤¤¤
 // WP11
 ItemDisplay[UNI !ID 6ws !ETH]: %GOLD%¤¤¤¤¤¤¤¤¤¤ %PURPLE%MANG SONG'S LESSON %GOLD%¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[UNI !ID 6cs !ETH]: %GOLD%¤¤¤¤¤¤ %PURPLE%Ondal's Wisdom %GOLD%¤¤¤¤¤¤
@@ -1651,7 +1652,7 @@ ItemDisplay[UNI !ID ywn ETH]: %GOLD%¤ %WHITE%eth Maelstrom %GOLD%¤
 ItemDisplay[UNI !ID gwn ETH]: %GOLD%¤ %WHITE%eth Ume's Lament %GOLD%¤
 // WP13
 ItemDisplay[UNI !ID 7sc !ETH]: %GOLD%????? %RED%Mighty Scepter %GOLD%?????
-ItemDisplay[UNI !ID 7ws !ETH]: %GOLD%¤¤¤ %PURPLE%Astreon's Iron Ward %GOLD%¤¤¤
+ItemDisplay[UNI !ID 7ws !ETH]: %GOLD%¤¤¤¤¤ %PURPLE%Astreon's Iron Ward %GOLD%¤¤¤¤¤
 ItemDisplay[UNI !ID 9ws !ETH]: %GOLD%¤ Hand of Blessed Light ¤
 ItemDisplay[UNI !ID 9qs !ETH]: %GOLD%¤ %WHITE%Zakarum's Hand %GOLD%¤
 ItemDisplay[UNI !ID 9qs !ETH]: %GOLD%¤ %WHITE%The Fetid Sprinkler %GOLD%¤
