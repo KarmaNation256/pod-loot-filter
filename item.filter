@@ -1,7 +1,7 @@
 //╔══════════════════════════════════════════╗
 //║ Look Up Item Codes @ Path of Diablo Wiki ║
 //║ Pure Karma Loot Filter 7.0               ║
-//║ Patch: Graphite                          ║
+//║ Patch: Jade                              ║
 //╚══════════════════════════════════════════╝
 ItemDisplay[CLVL>79 GOLD<5000]:
 ItemDisplay[CLVL>59 GOLD<2500]:
