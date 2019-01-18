@@ -67,6 +67,7 @@ ItemDisplay[ear]: %RED%%NAME%
 ItemDisplay[CLVL<80 yps]: %BLACK%¯%GREEN%ð%BLACK%¯
 //ItemDisplay[CLVL>81 yps]: %BLACK%¯%GREEN%ð%BLACK%¯
 ItemDisplay[yps]:
+ItemDisplay[CLVL<20 wms]: %BLACK%¯%WHITE%ð%BLACK%¯
 ItemDisplay[wms]:
 ItemDisplay[gpm]:
 ItemDisplay[opm]:
@@ -74,6 +75,7 @@ ItemDisplay[opl]:
 ItemDisplay[ops]:
 ItemDisplay[gps]:
 ItemDisplay[gpl]:
+ItemDisplay[CLVL<20 vps]: %BLACK%¯%GRAY%ð%BLACK%¯
 ItemDisplay[vps]:
 //╔══════════════╗
 //║ Vendor Items ║
