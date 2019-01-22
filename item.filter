@@ -1,7 +1,7 @@
 //╔══════════════════════════════════════════╗
 //║ Look Up Item Codes @ Path of Diablo Wiki ║
 //║ Pure Karma Loot Filter 7.0               ║
-//║ Patch: Jade                              ║
+//║ Patch: Jade             	             ║
 //╚══════════════════════════════════════════╝
 ItemDisplay[CLVL>79 GOLD<5000]:
 ItemDisplay[CLVL>59 GOLD<2500]:
@@ -812,26 +812,26 @@ ItemDisplay[NMAG ltp SOCK>1 !ETH !SUP DEF=107]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG gth SOCK>1 !ETH !SUP DEF=135]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG aar SOCK>1 !ETH !SUP DEF=233]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG xrs SOCK>1 !ETH !SUP DEF>199]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG xtp SOCK>1 !ETH !SUP DEF>249]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uui SOCK=0 !ETH !SUP DEF>449]: %RED%+ %WHITE%%NAME% %RED%+
+ItemDisplay[NMAG xtp SOCK>1 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uui SOCK=0 !ETH !SUP]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG uea SOCK=0 !ETH !SUP DEF>459]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG ula SOCK=0 !ETH !SUP DEF>469]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG utu SOCK=0 !ETH !SUP DEF>474]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG ung SOCK=0 !ETH !SUP DEF>479]: %NAME%
 ItemDisplay[NMAG urs SOCK=0 !ETH !SUP DEF>494]: %RED%+ %WHITE%%NAME% %RED%+
-ItemDisplay[NMAG utp SOCK=0 !ETH !SUP DEF>499]: %RED%+ %WHITE%%NAME% %RED%+
+ItemDisplay[NMAG utp SOCK=0 !ETH !SUP]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG uhn SOCK=0 !ETH !SUP DEF>499]: %NAME%
 ItemDisplay[NMAG upl SOCK=0 !ETH !SUP DEF>509]: %NAME%
 ItemDisplay[NMAG uld SOCK=0 !ETH !SUP DEF>519]: %NAME%
 ItemDisplay[NMAG uth SOCK=0 !ETH !SUP DEF>534]: %NAME%
 ItemDisplay[NMAG uar SOCK=0 !ETH !SUP DEF>549]: %NAME%
-ItemDisplay[NMAG uui SOCK>1 !ETH !SUP DEF>449]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uui SOCK>1 !ETH !SUP]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uea SOCK>1 !ETH !SUP DEF>459]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG ula SOCK>1 !ETH !SUP DEF>469]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG utu SOCK>1 !ETH !SUP DEF>474]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG ung SOCK>1 !ETH !SUP DEF>479]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG urs SOCK>1 !ETH !SUP DEF>494]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG utp SOCK>1 !ETH !SUP DEF>499]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG utp SOCK>1 !ETH !SUP]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uhn SOCK>1 !ETH !SUP DEF>499]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG upl SOCK>1 !ETH !SUP DEF>509]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uld SOCK>1 !ETH !SUP DEF>519]: %NAME% %BLUE%(%SOCKETS%)
@@ -927,18 +927,18 @@ ItemDisplay[NMAG mpi SOCK>4 !ETH]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG mpi SOCK>4 ETH]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wa SOCK=0 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%BERSERKER AXE %PURPLE%++++++++++ %BLUE%eth
 ItemDisplay[NMAG 7wa SOCK>3 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%BERSERKER AXE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wa SOCK=0 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Berserker Axe %PURPLE%+++++ %BLUE%eth
-ItemDisplay[NMAG 7wa SOCK>3 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Berserker Axe %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wa SOCK=0 !ETH !SUP]: %NAME%
-ItemDisplay[NMAG 7wa SOCK>3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7wa SOCK=0 ETH (ED>1 AND ED<15)]: %PURPLE%+++++ %ORANGE%Berserker Axe %PURPLE%+++++ %BLUE%eth
+ItemDisplay[NMAG 7wa SOCK>3 ETH (ED>1 AND ED<15)]: %PURPLE%+++++ %ORANGE%Berserker Axe %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
+//ItemDisplay[NMAG 7wa SOCK=0 !ETH !SUP]: %NAME%
+//ItemDisplay[NMAG 7wa SOCK>3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7wa SOCK=0 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
 ItemDisplay[NMAG 7wa SOCK>3 ETH !SUP]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7mp SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%WAR SPIKE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7mp SOCK>3 ETH ED=15]: %PURPLE%+++++ %ORANGE%WAR SPIKE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7mp SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%War Spike %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7mp SOCK>3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%War Spike %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7mp SOCK=0 !ETH !SUP]: %NAME%
-ItemDisplay[NMAG 7mp SOCK>3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
+//ItemDisplay[NMAG 7mp SOCK=0 !ETH !SUP]: %NAME%
+//ItemDisplay[NMAG 7mp SOCK>3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7mp SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
 ItemDisplay[NMAG 7mp SOCK>3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 72a SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%ETTIN AXE %PURPLE%+++++ %BLUE%eth
