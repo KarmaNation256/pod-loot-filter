@@ -87,6 +87,7 @@ ItemDisplay[MAG ID EQ4 !ETH TABSK0=3 IAS=20]: %PURPLE%+++++ %ORANGE%Bowazon Glov
 ItemDisplay[MAG ID EQ4 !ETH TABSK2=3 IAS=20]: %PURPLE%+++++ %ORANGE%Javazon Gloves %PURPLE%+++++
 ItemDisplay[MAG ID EQ4 !ETH TABSK50=3 IAS=20]: %PURPLE%+++++ %ORANGE%Martial Gloves %PURPLE%+++++
 // +6 Skill
+ItemDisplay[CL5 (SK274>0 AND SK275>0)]: %PURPLE%+++++ %ORANGE%BOI FLIGHT CLAW %PURPLE%+++++
 ItemDisplay[MAG CL5 ID TABSK48=3]: %PURPLE%+++++ %ORANGE%TRAP CLAW %PURPLE%+++++
 ItemDisplay[CL5 (CLSK6>0 AND SK271>2)]: %PURPLE%+++++ %ORANGE%LIGHT CLAW %PURPLE%+++++
 ItemDisplay[CL5 (CLSK6>1 AND SK271>1)]: %PURPLE%+++++ %ORANGE%LIGHT CLAW %PURPLE%+++++
