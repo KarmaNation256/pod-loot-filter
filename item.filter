@@ -54,14 +54,14 @@ ItemDisplay[CLVL>79 mp4]:
 ItemDisplay[CLVL>60 mp3]:
 ItemDisplay[CLVL>30 mp2]:
 ItemDisplay[CLVL>15 mp1]:
-ItemDisplay[CLVL<80 hp4]: %BLACK%¯%RED%ð%BLACK%¯
-ItemDisplay[CLVL<49 hp3]: %BLACK%¯%RED%ð%BLACK%¯
-ItemDisplay[CLVL<25 hp2]: %BLACK%¯%RED%ð%BLACK%¯
-ItemDisplay[CLVL<13 hp1]: %BLACK%¯%RED%ð%BLACK%¯
-ItemDisplay[CLVL<80 mp4]: %BLACK%¯%BLUE%ð%BLACK%¯
-ItemDisplay[CLVL<61 mp3]: %BLACK%¯%BLUE%ð%BLACK%¯
-ItemDisplay[CLVL<31 mp2]: %BLACK%¯%BLUE%ð%BLACK%¯
-ItemDisplay[CLVL<16 mp1]: %BLACK%¯%BLUE%ð%BLACK%¯
+ItemDisplay[CLVL<80 hp4]: %BLACK%¯%RED%ððð%BLACK%¯
+ItemDisplay[CLVL<49 hp3]: %BLACK%¯%RED%ððð%BLACK%¯
+ItemDisplay[CLVL<25 hp2]: %BLACK%¯%RED%ððð%BLACK%¯
+ItemDisplay[CLVL<13 hp1]: %BLACK%¯%RED%ððð%BLACK%¯
+ItemDisplay[CLVL<80 mp4]: %BLACK%¯%BLUE%ððð%BLACK%¯
+ItemDisplay[CLVL<61 mp3]: %BLACK%¯%BLUE%ððð%BLACK%¯
+ItemDisplay[CLVL<31 mp2]: %BLACK%¯%BLUE%ððð%BLACK%¯
+ItemDisplay[CLVL<16 mp1]: %BLACK%¯%BLUE%ððð%BLACK%¯
 ItemDisplay[leg]: %TAN%WIRT'§ £EG
 ItemDisplay[ear]: %RED%%NAME%
 ItemDisplay[CLVL<80 yps]: %BLACK%¯%GREEN%ð%BLACK%¯
@@ -137,13 +137,13 @@ ItemDisplay[gpr]: %BLACK%«%RED%Ruby%BLACK%»
 ItemDisplay[gpb]: %BLACK%«%BLUE%Sapphire%BLACK%»
 ItemDisplay[gpy]: %BLACK%«%YELLOW%Topaz%BLACK%»
 ItemDisplay[skz]: %BLACK%«%GRAY%Skull%BLACK%»
-ItemDisplay[gzv]: %PURPLE%«%GRAY%Amethyst%PURPLE%»
-ItemDisplay[glw]: %WHITE%«%GRAY%Diamond%WHITE%»
-ItemDisplay[glg]: %GREEN%«%GRAY%Emerald%GREEN%»
-ItemDisplay[glr]: %RED%«%GRAY%Ruby%RED%»
-ItemDisplay[glb]: %BLUE%«%GRAY%Sapphire%BLUE%»
-ItemDisplay[gly]: %YELLOW%«%GRAY%Topaz%YELLOW%»
-ItemDisplay[skl]: %ORANGE%«%GRAY%Skull%ORANGE%»
+ItemDisplay[gzv]: %PURPLE%««%GRAY%Amethyst%PURPLE%»»
+ItemDisplay[glw]: %WHITE%««%GRAY%Diamond%WHITE%»»
+ItemDisplay[glg]: %GREEN%««%GRAY%Emerald%GREEN%»»
+ItemDisplay[glr]: %RED%««%GRAY%Ruby%RED%»»
+ItemDisplay[glb]: %BLUE%««%GRAY%Sapphire%BLUE%»»
+ItemDisplay[gly]: %YELLOW%««%GRAY%Topaz%YELLOW%»»
+ItemDisplay[skl]: %ORANGE%««%GRAY%Skull%ORANGE%»»
 ItemDisplay[CLVL>39 (gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku)]:
 ItemDisplay[CLVL>29 (gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf)]:
 ItemDisplay[CLVL>19 (gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]:
@@ -814,13 +814,13 @@ ItemDisplay[NMAG gth SOCK>1 !ETH !SUP DEF=135]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG aar SOCK>1 !ETH !SUP DEF=233]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG xrs SOCK>1 !ETH !SUP DEF>199]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG xtp SOCK>1 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uui SOCK=0 !ETH !SUP]: %RED%+ %WHITE%%NAME% %RED%+
+ItemDisplay[NMAG uui SOCK=0 !ETH !SUP DEF>449]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG uea SOCK=0 !ETH !SUP DEF>459]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG ula SOCK=0 !ETH !SUP DEF>469]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG utu SOCK=0 !ETH !SUP DEF>474]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG ung SOCK=0 !ETH !SUP DEF>479]: %NAME%
 ItemDisplay[NMAG urs SOCK=0 !ETH !SUP DEF>494]: %RED%+ %WHITE%%NAME% %RED%+
-ItemDisplay[NMAG utp SOCK=0 !ETH !SUP]: %RED%+ %WHITE%%NAME% %RED%+
+ItemDisplay[NMAG utp SOCK=0 !ETH !SUP DEF>499]: %RED%+ %WHITE%%NAME% %RED%+
 ItemDisplay[NMAG uhn SOCK=0 !ETH !SUP DEF>499]: %NAME%
 ItemDisplay[NMAG upl SOCK=0 !ETH !SUP DEF>509]: %NAME%
 ItemDisplay[NMAG uld SOCK=0 !ETH !SUP DEF>519]: %NAME%
@@ -1291,7 +1291,7 @@ ItemDisplay[NMAG WP6]:
 //║ Unique EQX ║
 //╚════════════╝
 ItemDisplay[UNI !ID cm3]: %GOLD%¤ Gheed's Fortune ¤
-ItemDisplay[UNI !ID cm4]: %GOLD%¤ Horadrim Sigil ¤ %RED%>.<
+ItemDisplay[UNI !ID cm4]: %GOLD%¤ Horadrim Sigil ¤
 ItemDisplay[UNI !ID cm1]: %PURPLE%¤¤¤¤¤¤¤¤ %RED%ANNIHILUS %PURPLE%¤¤¤¤¤¤¤¤
 ItemDisplay[UNI !ID cm2]: %PURPLE%¤¤¤¤¤¤¤¤¤ %YELLOW%TORCH %PURPLE%¤¤¤¤¤¤¤¤¤
 ItemDisplay[UNI !ID amu]: %GOLD%÷%RED%÷÷÷÷÷÷÷÷÷%GOLD%÷ %PURPLE%AMULET %GOLD%÷%RED%÷÷÷÷÷÷÷÷÷%GOLD%÷
