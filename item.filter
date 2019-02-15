@@ -54,14 +54,14 @@ ItemDisplay[CLVL>79 mp4]:
 ItemDisplay[CLVL>60 mp3]:
 ItemDisplay[CLVL>30 mp2]:
 ItemDisplay[CLVL>15 mp1]:
-ItemDisplay[CLVL<80 hp4]: %BLACK%¯%RED%ððð%BLACK%¯
-ItemDisplay[CLVL<49 hp3]: %BLACK%¯%RED%ððð%BLACK%¯
-ItemDisplay[CLVL<25 hp2]: %BLACK%¯%RED%ððð%BLACK%¯
-ItemDisplay[CLVL<13 hp1]: %BLACK%¯%RED%ððð%BLACK%¯
-ItemDisplay[CLVL<80 mp4]: %BLACK%¯%BLUE%ððð%BLACK%¯
-ItemDisplay[CLVL<61 mp3]: %BLACK%¯%BLUE%ððð%BLACK%¯
-ItemDisplay[CLVL<31 mp2]: %BLACK%¯%BLUE%ððð%BLACK%¯
-ItemDisplay[CLVL<16 mp1]: %BLACK%¯%BLUE%ððð%BLACK%¯
+ItemDisplay[CLVL<80 hp4]: %BLACK%¯%RED%ð%BLACK%¯
+ItemDisplay[CLVL<49 hp3]: %BLACK%¯%RED%ð%BLACK%¯
+ItemDisplay[CLVL<25 hp2]: %BLACK%¯%RED%ð%BLACK%¯
+ItemDisplay[CLVL<13 hp1]: %BLACK%¯%RED%ð%BLACK%¯
+ItemDisplay[CLVL<80 mp4]: %BLACK%¯%BLUE%ð%BLACK%¯
+ItemDisplay[CLVL<61 mp3]: %BLACK%¯%BLUE%ð%BLACK%¯
+ItemDisplay[CLVL<31 mp2]: %BLACK%¯%BLUE%ð%BLACK%¯
+ItemDisplay[CLVL<16 mp1]: %BLACK%¯%BLUE%ð%BLACK%¯
 ItemDisplay[leg]: %TAN%WIRT'§ £EG
 ItemDisplay[ear]: %RED%%NAME%
 ItemDisplay[CLVL<80 yps]: %BLACK%¯%GREEN%ð%BLACK%¯
