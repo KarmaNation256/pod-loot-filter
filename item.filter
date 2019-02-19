@@ -652,6 +652,12 @@ ItemDisplay[NMAG CL4 SOCK=0 !ETH ILVL<67]: %NAME%
 ItemDisplay[NMAG CL4 SOCK=0 ETH ILVL<67]: %NAME% %BLUE%eth
 ItemDisplay[NMAG CL4 SOCK=0 ILVL>66]:
 // CL5
+ItemDisplay[NMAG (SK274>0 AND SK278>1) !7xf !7cs]: %WHITE%+? %ORANGE%BoI Venom Claw
+ItemDisplay[NMAG (SK274>0 AND SK275>0) !7xf !7cs]: %WHITE%+? %ORANGE%BoI Flight Claw
+ItemDisplay[NMAG (SK274>0 AND SK267>1) !7xf !7cs]: %WHITE%+? %ORANGE%BoI Fade Claw
+ItemDisplay[NMAG (SK274>0 AND SK262>1) !7xf !7cs]: %WHITE%+? %ORANGE%BoI WoF Claw
+ItemDisplay[NMAG (SK274>0 AND SK271>1) !7xf !7cs]: %WHITE%+? %ORANGE%BoI LS Claw
+ItemDisplay[NMAG (SK274>0 AND SK276>1) !7xf !7cs]: %WHITE%+? %ORANGE%BoI DS Claw
 ItemDisplay[NMAG SK261=3 SOCK=0 !7xf !7cs]: %WHITE%+3 %ORANGE%Charged Bolt Claw
 ItemDisplay[NMAG SK262=3 SOCK=0 !7xf !7cs]: %WHITE%+3 %ORANGE%Wake of Fire Claw
 ItemDisplay[NMAG SK271=3 SOCK=0 !7xf !7cs]: %WHITE%+3 %ORANGE%Lightning Sentry Claw
@@ -687,24 +693,24 @@ ItemDisplay[NMAG SK58=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%E-Shield 
 ItemDisplay[NMAG SK50=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Shiver Orb
 ItemDisplay[NMAG SK40=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Frigerate Orb
 ItemDisplay[NMAG SK52=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Enchant Orb
-ItemDisplay[NMAG SK41=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Immolate Orb
+ItemDisplay[NMAG SK46=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Immolate Orb
 ItemDisplay[NMAG SK47=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Fireball Orb
 ItemDisplay[NMAG SK62=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Hydra Orb
 ItemDisplay[NMAG SK48=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Nova Orb
 ItemDisplay[NMAG SK49=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Surge Orb
-ItemDisplay[NMAG SK53=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Chain Light Orb
-ItemDisplay[NMAG SK57=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%T-Storm Orb
+ItemDisplay[NMAG SK54=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Chain Light Orb
+ItemDisplay[NMAG SK57=3 SOCK=0 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Discharge Orb
 ItemDisplay[NMAG SK58=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%E-Shield Orb %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK50=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Shiver Orb %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK40=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Frigerate Orb %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK52=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Enchant Orb %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG SK41=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Immolate Orb %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG SK46=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Immolate Orb %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK47=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Fireball Orb %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK62=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Hydra Orb %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK48=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Nova Orb %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK49=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Surge Orb %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG SK53=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Chain Light Orb %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG SK57=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%T-Storm Orb %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG SK54=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Chain Light Orb %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG SK57=3 SOCK=3 (ob5 OR oba OR obf)]: %WHITE%+3 %ORANGE%Discharge Orb %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK58=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %ORANGE%E-Shield Staff
 ItemDisplay[NMAG SK58=2 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+2 %ORANGE%E-Shield Staff
 ItemDisplay[NMAG SK50=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %ORANGE%Shiver Staff
