@@ -717,10 +717,10 @@ ItemDisplay[NMAG SK50=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %O
 ItemDisplay[NMAG SK40=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %ORANGE%Frigerate Staff
 ItemDisplay[NMAG SK48=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %ORANGE%Nova Staff
 ItemDisplay[NMAG SK49=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %ORANGE%Surge Staff
-ItemDisplay[NMAG SK53=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %ORANGE%Chain Light Staff
-ItemDisplay[NMAG SK57=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %ORANGE%T-Storm Staff
+ItemDisplay[NMAG SK54=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %ORANGE%Chain Light Staff
+ItemDisplay[NMAG SK57=3 SOCK=0 WP11 !sst !lst !8ss !8ls !6ss !6ls]: %WHITE%+3 %ORANGE%Discharge Staff
 ItemDisplay[NMAG SK52=3 SOCK=0 WP11]: %WHITE%+3 %ORANGE%Enchant Staff
-ItemDisplay[NMAG SK41=3 SOCK=0 WP11]: %WHITE%+3 %ORANGE%Immolate Staff
+ItemDisplay[NMAG SK46=3 SOCK=0 WP11]: %WHITE%+3 %ORANGE%Immolate Staff
 ItemDisplay[NMAG SK47=3 SOCK=0 WP11]: %WHITE%+3 %ORANGE%Fireball Staff
 ItemDisplay[NMAG SK62=3 SOCK=0 WP11]: %WHITE%+3 %ORANGE%Hydra Staff
 ItemDisplay[NMAG SK58=3 SOCK>3 WP11]: %WHITE%+3 %ORANGE%E-Shield Staff %BLUE%(%SOCKETS%)
@@ -729,10 +729,10 @@ ItemDisplay[NMAG SK50=3 SOCK>3 WP11]: %WHITE%+3 %ORANGE%Shiver Staff %BLUE%(%SOC
 ItemDisplay[NMAG SK40=3 SOCK>3 WP11]: %WHITE%+3 %ORANGE%Frigerate Staff %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK48=3 SOCK>3 WP11]: %WHITE%+3 %ORANGE%Nova Staff %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK49=3 SOCK>3 WP11]: %WHITE%+3 %ORANGE%Surge Staff %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG SK53=3 SOCK>3 WP11]: %WHITE%+3 %ORANGE%Chain Light Staff %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG SK57=3 SOCK>3 WP11]: %WHITE%+3 %ORANGE%T-Storm Staff %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG SK54=3 SOCK>3 WP11]: %WHITE%+3 %ORANGE%Chain Light Staff %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG SK57=3 SOCK>3 WP11]: %WHITE%+3 %ORANGE%Discharge Staff %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK52=3 SOCK>1 WP11]: %WHITE%+3 %ORANGE%Enchant Staff %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG SK41=3 SOCK>1 WP11]: %WHITE%+3 %ORANGE%Immolate Staff %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG SK46=3 SOCK>1 WP11]: %WHITE%+3 %ORANGE%Immolate Staff %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK47=3 SOCK>1 WP11]: %WHITE%+3 %ORANGE%Fireball Staff %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK62=3 SOCK>1 WP11]: %WHITE%+3 %ORANGE%Hydra Staff %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG CL6 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
