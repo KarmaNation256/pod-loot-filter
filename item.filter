@@ -568,6 +568,7 @@ ItemDisplay[NMAG CL2 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG CL2 SOCK>1 ILVL>66]:
 ItemDisplay[NMAG CL2 SOCK=0]:
 // CL3
+ItemDisplay[NMAG WP13 SOCK=4]: %GRAY%HT Base %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK121=3 SOCK=0 !scp !9sc !7sc]: %WHITE%+3 %ORANGE%FoH Scepter
 ItemDisplay[NMAG SK112=3 SOCK=0 !scp !9sc !7sc]: %WHITE%+3 %ORANGE%Blessed Hammer Scepter
 ItemDisplay[NMAG SK119=3 SOCK=0 !scp !9sc !7sc]: %WHITE%+3 %ORANGE%Sanctuary Scepter
