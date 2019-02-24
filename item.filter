@@ -69,14 +69,14 @@ ItemDisplay[CLVL<80 yps]: %BLACK%¯%GREEN%ð%BLACK%¯
 ItemDisplay[yps]:
 ItemDisplay[CLVL<20 wms]: %BLACK%¯%YELLOW%ð%BLACK%¯
 ItemDisplay[wms]:
+ItemDisplay[CLVL<20 vps]: %BLACK%¯%WHITE%ð%BLACK%¯
+ItemDisplay[vps]:
 ItemDisplay[gpm]:
 ItemDisplay[opm]:
 ItemDisplay[opl]:
 ItemDisplay[ops]:
 ItemDisplay[gps]:
 ItemDisplay[gpl]:
-ItemDisplay[CLVL<20 vps]: %BLACK%¯%WHITE%ð%BLACK%¯
-ItemDisplay[vps]:
 //╔══════════════╗
 //║ Vendor Items ║
 //╚══════════════╝
@@ -568,7 +568,7 @@ ItemDisplay[NMAG CL2 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG CL2 SOCK>1 ILVL>66]:
 ItemDisplay[NMAG CL2 SOCK=0]:
 // CL3
-ItemDisplay[NMAG WP13 SOCK=4]: %GRAY%HT Base %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG WP13 SOCK=4]: %GRAY%Holy Thunder Scepter %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK121=3 SOCK=0 !scp !9sc !7sc]: %WHITE%+3 %ORANGE%FoH Scepter
 ItemDisplay[NMAG SK112=3 SOCK=0 !scp !9sc !7sc]: %WHITE%+3 %ORANGE%Blessed Hammer Scepter
 ItemDisplay[NMAG SK119=3 SOCK=0 !scp !9sc !7sc]: %WHITE%+3 %ORANGE%Sanctuary Scepter
@@ -931,14 +931,16 @@ ItemDisplay[NMAG EQ7 SOCK=0]:
 //║ Runeword WPX ║
 //╚══════════════╝
 // WP1
+ItemDisplay[NMAG 2ax SOCK>4 !ETH]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 2ax SOCK>4 ETH]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG mpi SOCK>4 !ETH]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG mpi SOCK>4 ETH]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wa SOCK=0 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%BERSERKER AXE %PURPLE%++++++++++ %BLUE%eth
 ItemDisplay[NMAG 7wa SOCK>3 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%BERSERKER AXE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wa SOCK=0 ETH (ED>1 AND ED<15)]: %PURPLE%+++++ %ORANGE%Berserker Axe %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7wa SOCK>3 ETH (ED>1 AND ED<15)]: %PURPLE%+++++ %ORANGE%Berserker Axe %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
-//ItemDisplay[NMAG 7wa SOCK=0 !ETH !SUP]: %NAME%
-//ItemDisplay[NMAG 7wa SOCK>3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7wa SOCK=0 !ETH !SUP]: %NAME%
+ItemDisplay[NMAG 7wa SOCK>3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7wa SOCK=0 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
 ItemDisplay[NMAG 7wa SOCK>3 ETH !SUP]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7mp SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%WAR SPIKE %PURPLE%+++++ %BLUE%eth
@@ -1047,12 +1049,13 @@ ItemDisplay[NMAG 7wd SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Mythical Swo
 ItemDisplay[NMAG 7wd SOCK=3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Mythical Sword %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wd SOCK=3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7wd SOCK=3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7wd SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
 ItemDisplay[NMAG 72h SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%LEGEND SWORD %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 72h SOCK=3 ETH ED=15]: %PURPLE%+++++ %ORANGE%LEGEND SWORD %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 72h SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Legend Sword %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 72h SOCK=3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Legend Sword %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 72h SOCK=3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7wd SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 72h SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
 ItemDisplay[NMAG 72h SOCK=3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7cm SOCK=0 ETH ED=15]: %PURPLE%+++ %ORANGE%HIGHLAND BLADE %PURPLE%+++ %BLUE%eth
 ItemDisplay[NMAG 7cm SOCK>2 ETH ED=15]: %PURPLE%+++ %ORANGE%HIGHLAND BLADE %PURPLE%+++ %BLUE%eth (%SOCKETS%)
@@ -1207,10 +1210,10 @@ ItemDisplay[NMAG 6rx SOCK>3 ED=15]: %PURPLE%+++++ %ORANGE%DEMON CROSSBOW %PURPLE
 ItemDisplay[NMAG 6rx SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Demon Crossbow %RED%+++
 ItemDisplay[NMAG 6rx SOCK>3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Demon Crossbow %RED%+++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6rx SOCK>3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 8rx SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%DEMON CROSSBOW %PURPLE%+++++
-ItemDisplay[NMAG 8rx SOCK>3 ED=15]: %PURPLE%+++++ %ORANGE%DEMON CROSSBOW %PURPLE%+++++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 8rx SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Demon Crossbow %RED%+++
-ItemDisplay[NMAG 8rx SOCK>3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Demon Crossbow %RED%+++ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 8rx SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%CHU-KO-NU %PURPLE%+++++
+ItemDisplay[NMAG 8rx SOCK>3 ED=15]: %PURPLE%+++++ %ORANGE%CHU-KO-NU %PURPLE%+++++ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 8rx SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Chu-Ko-Nu %RED%+++
+ItemDisplay[NMAG 8rx SOCK>3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Chu-Ko-Nu %RED%+++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 8rx SOCK>3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP10 SOCK>1 ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP10 SOCK>1 ILVL>66]:
