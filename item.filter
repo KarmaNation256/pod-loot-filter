@@ -2,6 +2,7 @@
 //║ Look Up Item Codes @ Path of Diablo Wiki ║
 //║ Pure Karma Loot Filter 8.0               ║
 //║ Patch: Jade             	             ║
+//║ By: KarmaNation	                     ║
 //╚══════════════════════════════════════════╝
 ItemDisplay[CLVL>79 GOLD<5000]:
 ItemDisplay[CLVL>59 GOLD<2500]:
@@ -20,10 +21,10 @@ ItemDisplay[tes]: %BLUE%¤¤¤ ESSENCE ¤¤¤
 ItemDisplay[ceh]: %YELLOW%¤¤¤ ESSENCE ¤¤¤
 ItemDisplay[bet]: %RED%¤¤¤ ESSENCE ¤¤¤
 ItemDisplay[toa]: %PURPLE%¤¤¤¤¤ TOKEN ¤¤¤¤¤
-ItemDisplay[cx7]: %TAN%Î %ORANGE%CHAOS %TAN%Î
-ItemDisplay[pk1]: %TAN%Î %PURPLE%TERROR %TAN%Î
-ItemDisplay[pk3]: %TAN%Î %YELLOW%DESTRUCTION %TAN%Î
-ItemDisplay[pk2]: %TAN%Î %GREEN%HATE %TAN%Î
+ItemDisplay[cx7]: %TAN%ÎÎÎ %ORANGE%CHAOS %TAN%ÎÎÎ
+ItemDisplay[pk1]: %TAN%ÎÎÎ %PURPLE%TERROR %TAN%ÎÎÎ
+ItemDisplay[pk3]: %TAN%ÎÎÎ %YELLOW%DESTRUCTION %TAN%ÎÎÎ
+ItemDisplay[pk2]: %TAN%ÎÎÎ %GREEN%HATE %TAN%ÎÎÎ
 ItemDisplay[bey]: %PURPLE%üüü %WHITE%EYE %PURPLE%üüü
 ItemDisplay[dhn]: %PURPLE%üüü %TAN%HORN %PURPLE%üüü
 ItemDisplay[mbr]: %PURPLE%üüü %YELLOW%BRAIN %PURPLE%üüü
@@ -583,29 +584,29 @@ ItemDisplay[NMAG SK102=3 SOCK>2]: %WHITE%+3 %ORANGE%Holy Fire Scepter %BLUE%(%SO
 ItemDisplay[NMAG SK114=3 SOCK>2]: %WHITE%+3 %ORANGE%Holy Freeze Scepter %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK117=3 SOCK>2]: %WHITE%+3 %ORANGE%Holy Shield Scepter %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG SK118=3 SOCK>2]: %WHITE%+3 %ORANGE%Holy Shock Scepter %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG pab SOCK=0 !ETH RES=45]: %PURPLE%+++ %ORANGE%SACRED TARGE %PURPLE%+++
-ItemDisplay[NMAG pab SOCK=0 !ETH (RES>34 AND RES<45)]: %RED%+ %ORANGE%Sacred Targe %RED%+
-ItemDisplay[NMAG pab SOCK>2 !ETH RES=45]: %PURPLE%+++++ %ORANGE%SACRED TARGE %PURPLE%+++++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG pab SOCK>2 !ETH (RES>34 AND RES<45)]: %RED%+++ %ORANGE%Sacred Targe %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG pab SOCK=0 ETH RES=45]: %PURPLE%+++++ %ORANGE%SACRED TARGE %PURPLE%+++++ %BLUE%eth
-ItemDisplay[NMAG pab SOCK=0 ETH (RES>34 AND RES<45)]: %RED%+++ %ORANGE%Sacred Targe %RED%+++ %BLUE%eth
-ItemDisplay[NMAG pab SOCK=4 ETH RES=45]: %PURPLE%+++++ %ORANGE%SACRED TARGE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG pab SOCK=4 ETH (RES>34 AND RES<45)]: %RED%+++ %ORANGE%Sacred Targe %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK=0 !ETH RES=45]: %PURPLE%+++ %ORANGE%RESIST SHIELD %PURPLE%+++
-ItemDisplay[NMAG CL3 SOCK=0 !ETH (RES>39 AND RES<45)]: %WHITE%+ %ORANGE%Resist Shield %WHITE%+
-ItemDisplay[NMAG CL3 SOCK>2 !ETH RES=45]: %PURPLE%+++ %ORANGE%RESIST SHIELD %PURPLE%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK>2 !ETH (RES>39 AND RES<45)]: %RED%+ %ORANGE%Resist Shield %RED%+ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK=0 ETH RES=45]: %PURPLE%+++ %ORANGE%RESIST SHIELD %PURPLE%+++ %BLUE%eth
-ItemDisplay[NMAG CL3 SOCK=0 ETH (RES>39 AND RES<45)]: %RED%+++ %ORANGE%Resist Shield %RED%+++ %BLUE%eth
-ItemDisplay[NMAG CL3 SOCK=4 ETH RES=45]: %PURPLE%+++ %ORANGE%RESIST SHIELD %PURPLE%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK=4 ETH (RES>39 AND RES<45)]: %RED%+++ %ORANGE%Resist Shield %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK=0 ELT !ETH ED=65]: %PURPLE%+++ %ORANGE%SMITE SHIELD %PURPLE%+++
+ItemDisplay[NMAG pab SOCK=0 !ETH RES=45]: %PURPLE%45 %ORANGE%SACRED TARGE %PURPLE%45
+ItemDisplay[NMAG pab SOCK=0 !ETH (RES>34 AND RES<45)]: %RED%34 %ORANGE%Sacred Targe %RED%44
+ItemDisplay[NMAG pab SOCK>2 !ETH RES=45]: %PURPLE%45 %ORANGE%SACRED TARGE %PURPLE%45 %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG pab SOCK>2 !ETH (RES>34 AND RES<45)]: %RED%34 %ORANGE%Sacred Targe %RED%44 %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG pab SOCK=0 ETH RES=45]: %PURPLE%45 %ORANGE%SACRED TARGE %PURPLE%45 %BLUE%eth
+ItemDisplay[NMAG pab SOCK=0 ETH (RES>34 AND RES<45)]: %RED%34 %ORANGE%Sacred Targe %RED%44 %BLUE%eth
+ItemDisplay[NMAG pab SOCK=4 ETH RES=45]: %PURPLE%45 %ORANGE%SACRED TARGE %PURPLE%45 %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG pab SOCK=4 ETH (RES>34 AND RES<45)]: %RED%34 %ORANGE%Sacred Targe %RED%44 %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK=0 !ETH RES=45]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45
+ItemDisplay[NMAG CL3 SOCK=0 !ETH (RES>39 AND RES<45)]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44
+ItemDisplay[NMAG CL3 SOCK>2 !ETH RES=45]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45 %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK>2 !ETH (RES>39 AND RES<45)]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44 %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK=0 ETH RES=45]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45 %BLUE%eth
+ItemDisplay[NMAG CL3 SOCK=0 ETH (RES>39 AND RES<45)]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44 %BLUE%eth
+ItemDisplay[NMAG CL3 SOCK=4 ETH RES=45]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45 %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK=4 ETH (RES>39 AND RES<45)]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44 %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK=0 ELT !ETH ED=65]: %PURPLE%+++ %ORANGE%Smite Shield %PURPLE%+++
 ItemDisplay[NMAG CL3 SOCK=0 ELT !ETH (ED>49 AND ED<65)]: %WHITE%+ %ORANGE%Smite Shield %WHITE%+
-ItemDisplay[NMAG CL3 SOCK>2 ELT !ETH ED=65]: %PURPLE%+++ %ORANGE%SMITE SHIELD %PURPLE%+++ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK>2 ELT !ETH ED=65]: %PURPLE%+++ %ORANGE%Smite Shield %PURPLE%+++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG CL3 SOCK>2 ELT !ETH (ED>49 AND ED<65)]: %RED%+ %ORANGE%Smite Shield %RED%+ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK=0 ELT ETH ED=65]: %PURPLE%+++ %ORANGE%SMITE SHIELD %PURPLE%+++ %BLUE%eth
+ItemDisplay[NMAG CL3 SOCK=0 ELT ETH ED=65]: %PURPLE%+++ %ORANGE%Smite Shield %PURPLE%+++ %BLUE%eth
 ItemDisplay[NMAG CL3 SOCK=0 ELT ETH (ED>49 AND ED<65)]: %RED%+ %ORANGE%Smite Shield %RED%+ %BLUE%eth
-ItemDisplay[NMAG CL3 SOCK=4 ELT ETH ED=65]: %PURPLE%+++ %ORANGE%SMITE SHIELD %PURPLE%+++ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK=4 ELT ETH ED=65]: %PURPLE%+++ %ORANGE%Smite Shield %PURPLE%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG CL3 SOCK=4 ELT ETH (ED>49 AND ED<65)]: %RED%+++ %ORANGE%Smite Shield %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG CL3 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG CL3 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
