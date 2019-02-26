@@ -1,6 +1,6 @@
 //╔══════════════════════════════════════════╗
 //║ Look Up Item Codes @ Path of Diablo Wiki ║
-//║ Pure Karma Loot Filter 8.0               ║
+//║ Pure Karma Loot Filter 8.2               ║
 //║ Patch: Jade             	             ║
 //║ By: KarmaNation	                     ║
 //╚══════════════════════════════════════════╝
@@ -592,14 +592,14 @@ ItemDisplay[NMAG pab SOCK=0 ETH RES=45]: %PURPLE%45 %ORANGE%SACRED TARGE %PURPLE
 ItemDisplay[NMAG pab SOCK=0 ETH (RES>34 AND RES<45)]: %RED%34 %ORANGE%Sacred Targe %RED%44 %BLUE%eth
 ItemDisplay[NMAG pab SOCK=4 ETH RES=45]: %PURPLE%45 %ORANGE%SACRED TARGE %PURPLE%45 %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG pab SOCK=4 ETH (RES>34 AND RES<45)]: %RED%34 %ORANGE%Sacred Targe %RED%44 %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK=0 !ETH RES=45]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45
-ItemDisplay[NMAG CL3 SOCK=0 !ETH (RES>39 AND RES<45)]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44
-ItemDisplay[NMAG CL3 SOCK>2 !ETH RES=45]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45 %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK>2 !ETH (RES>39 AND RES<45)]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44 %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK=0 ETH RES=45]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45 %BLUE%eth
-ItemDisplay[NMAG CL3 SOCK=0 ETH (RES>39 AND RES<45)]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44 %BLUE%eth
-ItemDisplay[NMAG CL3 SOCK=4 ETH RES=45]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45 %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG CL3 SOCK=4 ETH (RES>39 AND RES<45)]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44 %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK=0 !ETH RES=45 CLVL<88]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45
+ItemDisplay[NMAG CL3 SOCK=0 !ETH (RES>39 AND RES<45) CLVL<88]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44
+ItemDisplay[NMAG CL3 SOCK>2 !ETH RES=45 CLVL<88]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45 %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK>2 !ETH (RES>39 AND RES<45) CLVL<88]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44 %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK=0 ETH RES=45 CLVL<88]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45 %BLUE%eth
+ItemDisplay[NMAG CL3 SOCK=0 ETH (RES>39 AND RES<45) CLVL<88]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44 %BLUE%eth
+ItemDisplay[NMAG CL3 SOCK=4 ETH RES=45 CLVL<90]: %WHITE%45 %ORANGE%Resist Shield %WHITE%45 %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK=4 ETH (RES>39 AND RES<45) CLVL<90]: %WHITE%39 %ORANGE%Resist Shield %WHITE%44 %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG CL3 SOCK=0 ELT !ETH ED=65]: %PURPLE%+++ %ORANGE%Smite Shield %PURPLE%+++
 ItemDisplay[NMAG CL3 SOCK=0 ELT !ETH (ED>49 AND ED<65)]: %WHITE%+ %ORANGE%Smite Shield %WHITE%+
 ItemDisplay[NMAG CL3 SOCK>2 ELT !ETH ED=65]: %PURPLE%+++ %ORANGE%Smite Shield %PURPLE%+++ %BLUE%(%SOCKETS%)
