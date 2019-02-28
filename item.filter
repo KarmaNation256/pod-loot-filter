@@ -2,7 +2,7 @@
 //║ Look Up Item Codes @ Path of Diablo Wiki ║
 //║ Pure Karma Loot Filter 8.2               ║
 //║ Patch: Jade             	             ║
-//║ By: KarmaNation							 ║
+//║ By: KarmaNation	                     ║
 //╚══════════════════════════════════════════╝
 ItemDisplay[CLVL>79 GOLD<5000]:
 ItemDisplay[CLVL>59 GOLD<2500]:
