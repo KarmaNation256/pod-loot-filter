@@ -137,7 +137,7 @@ ItemDisplay[gpg]: %BLACK%«%GREEN%Emerald%BLACK%»
 ItemDisplay[gpr]: %BLACK%«%RED%Ruby%BLACK%»
 ItemDisplay[gpb]: %BLACK%«%BLUE%Sapphire%BLACK%»
 ItemDisplay[gpy]: %BLACK%«%YELLOW%Topaz%BLACK%»
-ItemDisplay[skz]: %BLACK%«%GRAY%Skull%BLACK%»
+ItemDisplay[skz]: %BLACK%«%ORANGE%Skull%BLACK%»
 ItemDisplay[gzv]: %PURPLE%««%GRAY%Amethyst%PURPLE%»»
 ItemDisplay[glw]: %WHITE%««%GRAY%Diamond%WHITE%»»
 ItemDisplay[glg]: %GREEN%««%GRAY%Emerald%GREEN%»»
@@ -1615,7 +1615,7 @@ ItemDisplay[UNI !ID 7sr ETH]: %GOLD%¤ eth Arioc's Needle ¤
 ItemDisplay[UNI !ID 7br ETH]: %GOLD%¤ %WHITE% eth Viperfork %GOLD%¤
 // WP8
 ItemDisplay[UNI !ID 7s8 !ETH]: %GOLD%¤¤¤ %PURPLE%The Reaper's Toll %GOLD%¤¤¤
-ItemDisplay[UNI !ID 7wc !ETH]: %GOLD%¤¤¤ %PURPLE%Stormspire %GOLD%¤¤¤
+ItemDisplay[UNI !ID 7wc !ETH]: %GOLD%¤¤¤ %RED%Stormspire %GOLD%¤¤¤
 ItemDisplay[UNI !ID 7pa !ETH]: %GOLD%¤ %RED%Tomb Reaver %GOLD%¤
 ItemDisplay[UNI !ID 7o7 !ETH]: %GOLD%¤ %WHITE%Bonehew %GOLD%¤
 ItemDisplay[UNI !ID hal !ETH]: %GOLD%¤ %WHITE%Woestave %GOLD%¤
