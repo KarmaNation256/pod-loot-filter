@@ -1618,7 +1618,7 @@ ItemDisplay[UNI !ID 7br ETH]: %GOLD%¤ %WHITE% eth Viperfork %GOLD%¤
 ItemDisplay[UNI !ID 7s8 !ETH]: %GOLD%¤¤¤ %PURPLE%The Reaper's Toll %GOLD%¤¤¤
 ItemDisplay[UNI !ID 7wc !ETH]: %GOLD%¤¤¤ %RED%Stormspire %GOLD%¤¤¤
 ItemDisplay[UNI !ID 7pa !ETH]: %GOLD%¤ %RED%Tomb Reaver %GOLD%¤
-ItemDisplay[UNI !ID 7o7 !ETH]: %GOLD%¤ %WHITE%Bonehew %GOLD%¤
+ItemDisplay[UNI !ID 7o7 !ETH]: %GOLD%¤ %RED%Bonehew %GOLD%¤
 ItemDisplay[UNI !ID hal !ETH]: %GOLD%¤ %WHITE%Woestave %GOLD%¤
 ItemDisplay[UNI !ID 9s8 !ETH]: %GOLD%¤ %WHITE%Athena's Wrath %GOLD%¤
 ItemDisplay[UNI !ID 9pa !ETH]: %GOLD%¤ %WHITE%Pierre Tombale Couant %GOLD%¤
