@@ -466,30 +466,27 @@ ItemDisplay[SET !ID rin ILVL<87]: %GREEN%÷ %DGREEN%%NAME% %GREEN%÷
 ItemDisplay[SET !ID uar]: %GREEN%¤¤¤¤¤ %PURPLE%Immortal King's Soul Cage %GREEN%¤¤¤¤¤
 ItemDisplay[SET !ID uth]: %GREEN%¤¤¤¤¤ %PURPLE%Tal Rasha's Guardianship %GREEN%¤¤¤¤¤
 ItemDisplay[SET !ID 7qr]: %GREEN%¤¤¤¤¤ %PURPLE%Natalya's Mark %GREEN%¤¤¤¤¤
-ItemDisplay[SET !ID oba]: %GREEN%¤¤¤ %PURPLE%Tal Rasha's Lidless Eye %GREEN%¤¤¤
-ItemDisplay[SET !ID 7ws]: %GREEN%¤¤¤ %PURPLE%Griswold's Redemption %GREEN%¤¤¤
-ItemDisplay[SET !ID ci3]: %GREEN%¤¤¤ %PURPLE%M'avina's True Sight %GREEN%¤¤¤
-ItemDisplay[SET !ID utc]: %GREEN%¤¤¤ %PURPLE%Trang-Oul's Girth %GREEN%¤¤¤
-ItemDisplay[SET !ID ne9]: %GREEN%¤¤¤ %PURPLE%Trang-Oul's Wing %GREEN%¤¤¤
 ItemDisplay[SET !ID xtb]: %GREEN%¤¤¤ %PURPLE%Aldur's Advance %GREEN%¤¤¤
 ItemDisplay[SET !ID ulg]: %GREEN%¤¤¤ %PURPLE%Laying of Hands %GREEN%¤¤¤
 ItemDisplay[SET !ID xhm]: %GREEN%¤¤¤ %PURPLE%Guillame's Face %GREEN%¤¤¤
-ItemDisplay[SET !ID xap]: %GREEN%¤¤¤ %PURPLE%Cow King's Horns %GREEN%¤¤¤
-ItemDisplay[SET !ID stu]: %GREEN%¤¤¤ %PURPLE%Cow King's Hide %GREEN%¤¤¤
-ItemDisplay[SET !ID xhb]: %GREEN%¤¤ Immortal King's Pillar ¤¤
-ItemDisplay[SET !ID zhb]: %GREEN%¤¤ Immortal King's Detail ¤¤
+ItemDisplay[SET !ID xmg]: %GREEN%¤¤ %PURPLE%Trang-Oul's Claws %GREEN%¤¤
+ItemDisplay[SET !ID xap]: %GREEN%¤¤¤ Cow King's Horns ¤¤¤
+ItemDisplay[SET !ID stu]: %GREEN%¤¤¤ Cow King's Hide ¤¤¤
 ItemDisplay[SET !ID xul]: %GREEN%¤¤ Trang-Oul's Scales ¤¤
 ItemDisplay[SET !ID uh9]: %GREEN%¤¤ Trang-Oul's Guise ¤¤
 ItemDisplay[SET !ID xmg]: %GREEN%¤¤ Trang-Oul's Claws ¤¤
-ItemDisplay[SET !ID xar]: %GREEN%¤¤ Griswold's Heart ¤¤
-ItemDisplay[SET !ID urn]: %GREEN%¤¤ Griswold's Valor ¤¤
-ItemDisplay[SET !ID paf]: %GREEN%¤¤ Griswold's Honor ¤¤
+ItemDisplay[SET !ID utc]: %GREEN%¤¤¤ Trang-Oul's Girth ¤¤¤
+ItemDisplay[SET !ID ne9]: %GREEN%¤¤¤ Trang-Oul's Wing ¤¤¤
 ItemDisplay[SET !ID zvb]: %GREEN%¤¤ M'avina's Tenet ¤¤
+ItemDisplay[SET !ID ci3]: %GREEN%¤¤¤ M'avina's True Sight ¤¤¤
 ItemDisplay[SET !ID xmb]: %GREEN%¤¤ Natalya's Soul ¤¤
 ItemDisplay[SET !ID 6cs]: %GREEN%¤¤ Naj's Puzzler ¤¤
 ItemDisplay[SET !ID ult]: %GREEN%¤¤ Naj's Light Plate ¤¤
-ItemDisplay[SET !ID 7ma]: %GREEN%¤¤ Dangoon's Teaching ¤¤
-ItemDisplay[SET !ID 7gd]: %GREEN%¤¤ Bul-Kathos' Sacred Charge ¤¤
+ItemDisplay[SET !ID xar]: %GREEN%¤¤ %DGREEN%Griswold's Heart %GREEN%¤¤
+ItemDisplay[SET !ID 7ws]: %GREEN%¤¤¤ %DGREEN%Griswold's Redemption %GREEN%¤¤¤
+ItemDisplay[SET !ID urn]: %GREEN%¤¤ %DGREEN%Griswold's Valor %GREEN%¤¤
+ItemDisplay[SET !ID paf]: %GREEN%¤¤ %DGREEN%Griswold's Honor %GREEN%¤¤
+ItemDisplay[SET !ID oba]: %GREEN%¤¤¤ %DGREEN%Tal Rasha's Lidless Eye %GREEN%¤¤¤
 ItemDisplay[SET !ID zmb]: %GREEN%¤ %DGREEN%Tal Rasha's Fine Spun Cloth %GREEN%¤
 ItemDisplay[SET !ID xsk]: %GREEN%¤ %DGREEN%Tal Rasha's Horadric Crest %GREEN%¤
 ItemDisplay[SET !ID dr8]: %GREEN%¤ %DGREEN%Aldur's Stony Gaze %GREEN%¤
@@ -500,6 +497,8 @@ ItemDisplay[SET !ID ucl]: %GREEN%¤ %DGREEN%Natalya's Shadow %GREEN%¤
 ItemDisplay[SET !ID amc]: %GREEN%¤ %DGREEN%M'avina's Caster %GREEN%¤
 ItemDisplay[SET !ID uld]: %GREEN%¤ %DGREEN%M'avina's Embrace %GREEN%¤
 ItemDisplay[SET !ID xtg]: %GREEN%¤ %DGREEN%M'avina's Icy Clutch %GREEN%¤
+ItemDisplay[SET !ID xhb]: %GREEN%¤¤ %DGREEN%Immortal King's Pillar %GREEN%¤¤
+ItemDisplay[SET !ID zhb]: %GREEN%¤¤ %DGREEN%Immortal King's Detail %GREEN%¤¤
 ItemDisplay[SET !ID ba5]: %GREEN%¤ %DGREEN%Immortal King's Will %GREEN%¤
 ItemDisplay[SET !ID xhg]: %GREEN%¤ %DGREEN%Immortal King's Forge %GREEN%¤
 ItemDisplay[SET !ID 7m7]: %GREEN%¤ %DGREEN%Immortal King's Maul %GREEN%¤
@@ -509,6 +508,7 @@ ItemDisplay[SET !ID vbt]: %GREEN%¤ %DGREEN%Heavy Boots %GREEN%¤
 ItemDisplay[SET !ID uui]: %GREEN%¤ %DGREEN%Dark Adherent %GREEN%¤
 ItemDisplay[SET !ID xlb]: %GREEN%¤ %DGREEN%Rite of Passage %GREEN%¤
 ItemDisplay[SET !ID umc]: %GREEN%¤ %DGREEN%Credendum %GREEN%¤
+ItemDisplay[SET !ID 7ma]: %GREEN%¤¤ %DGREEN%Dangoon's Teaching %GREEN%¤¤
 ItemDisplay[SET !ID uhm]: %GREEN%¤ %DGREEN%Ondal's Almighty %GREEN%¤
 ItemDisplay[SET !ID xrs]: %GREEN%¤ %DGREEN%Haemosu's Adament %GREEN%¤
 ItemDisplay[SET !ID uts]: %GREEN%¤ %DGREEN%Taebaek's Glory %GREEN%¤
@@ -520,6 +520,7 @@ ItemDisplay[SET !ID xhl]: %GREEN%¤ %DGREEN%Sazabi's Mental Sheath %GREEN%¤
 ItemDisplay[SET !ID 7ls]: %GREEN%¤ %DGREEN%Sazabi's Cobalt Redeemer %GREEN%¤
 ItemDisplay[SET !ID upl]: %GREEN%¤ %DGREEN%Sazabi's Ghost Liberator %GREEN%¤
 ItemDisplay[SET !ID 7wd]: %GREEN%¤ %DGREEN%Bul-Kathos' Tribal Guardian %GREEN%¤
+ItemDisplay[SET !ID 7gd]: %GREEN%¤¤ %DGREEN%Bul-Kathos' Sacred Charge %GREEN%¤¤
 ItemDisplay[SET !ID tbt]: %GREEN%¤ %DGREEN%Vidala's Fetlock %GREEN%¤
 // SET Filter
 ItemDisplay[SET !ID ILVL<76]: %NAME%
