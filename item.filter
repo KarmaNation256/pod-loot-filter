@@ -204,7 +204,7 @@ ItemDisplay[r28]: %GREEN%28 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%LO %PURPLE%¤¤�
 ItemDisplay[r29]: %GREEN%29 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%SUR %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %GREEN%29
 ItemDisplay[r30]: %GREEN%30 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%BER %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %GREEN%30
 ItemDisplay[r31]: %GREEN%31 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%JAH %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %GREEN%31
-ItemDisplay[r32]: %GREEN%32 %PURPLE%¤¤¤¤¤¤¤¤¤¤ %RED%CHAM %PURPLE%¤¤¤¤¤¤¤¤¤¤ %GREEN%32
+ItemDisplay[r32]: %GREEN%32 %PURPLE%¤¤¤¤¤¤¤¤¤¤ %RED%CHAM %PURPLE%¤¤¤¤¤¤¤¤¤¤ %GREEN%32 
 ItemDisplay[r33]: %GREEN%33 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%ZOD %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %GREEN%33
 //╔══════════╗
 //║ CRAFTING ║
