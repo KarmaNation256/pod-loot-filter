@@ -1152,6 +1152,7 @@ ItemDisplay[NMAG 7s8 SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Thresher %RE
 ItemDisplay[NMAG 7s8 SOCK=0 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
 ItemDisplay[NMAG 7s8 SOCK=4 ETH !SUP]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7s8 SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7s8 SOCK=5 !ETH]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%GIANT THRESHER %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7wc SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%GIANT THRESHER %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%GIANT THRESHER %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
@@ -1161,6 +1162,7 @@ ItemDisplay[NMAG 7wc SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Giant Thresh
 ItemDisplay[NMAG 7wc SOCK=0 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
 ItemDisplay[NMAG 7wc SOCK=4 ETH !SUP]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7wc SOCK=5 !ETH]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%CRYPITC AXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7pa SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%CRYPITC AXE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%CRYPTIC AXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
@@ -1169,14 +1171,16 @@ ItemDisplay[NMAG 7pa SOCK=4 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Cryptic
 ItemDisplay[NMAG 7pa SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Cryptic Axe %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
 ItemDisplay[NMAG 7pa SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7pa SOCK=5 !ETH]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%GREAT POLEAXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7h7 SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%GREAT POLEAXE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%GREAT POLEAXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Great Poleaxe %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7h7 SOCK=4 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Great Poleaxe %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7h7 SOCK=2 ETH !(ED>4 AND ED<15)]: %RED%+++ %ORANGE%Great Poleaxe %RED%+++ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7h7 SOCK=2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Great Poleaxe %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
 ItemDisplay[NMAG 7h7 SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7h7 SOCK=5 !ETH]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP8 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP8 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP8 SOCK>1 ILVL>66]:
