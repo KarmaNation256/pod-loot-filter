@@ -204,7 +204,7 @@ ItemDisplay[r28]: %GREEN%28 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%LO %PURPLE%¤¤�
 ItemDisplay[r29]: %GREEN%29 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%SUR %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %GREEN%29
 ItemDisplay[r30]: %GREEN%30 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%BER %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %GREEN%30
 ItemDisplay[r31]: %GREEN%31 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%JAH %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %GREEN%31
-ItemDisplay[r32]: %GREEN%32 %PURPLE%¤¤¤¤¤¤¤¤¤¤ %RED%CHAM %PURPLE%¤¤¤¤¤¤¤¤¤¤ %GREEN%32 
+ItemDisplay[r32]: %GREEN%32 %PURPLE%¤¤¤¤¤¤¤¤¤¤ %RED%CHAM %PURPLE%¤¤¤¤¤¤¤¤¤¤ %GREEN%32
 ItemDisplay[r33]: %GREEN%33 %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%ZOD %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %GREEN%33
 //╔══════════╗
 //║ CRAFTING ║
@@ -806,12 +806,12 @@ ItemDisplay[NMAG CL7 SOCK=0]:
 //║ Runeword EQX ║
 //╚══════════════╝
 // EQ1
-ItemDisplay[NMAG msk SOCK>1 !ETH !SUP DEF=27]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG xsk SOCK>1 !ETH !SUP DEF=86]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uh9 SOCK=3 !ETH !SUP DEF>132]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG usk SOCK=3 !ETH !SUP DEF>141]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uhm SOCK=3 !ETH !SUP DEF>149]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG urn SOCK=3 !ETH !SUP DEF>159]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG msk SOCK>1 !ETH !SUP DEF>25]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG xsk SOCK>1 !ETH !SUP DEF>75]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uh9 SOCK=3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG usk SOCK=3 !ETH !SUP DEF>125]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uhm SOCK=3 !ETH !SUP DEF>140]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG urn SOCK=3 !ETH !SUP DEF>150]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uh9 SOCK=3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG usk SOCK=3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG uhm SOCK=3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
@@ -861,7 +861,7 @@ ItemDisplay[NMAG ula SOCK=0 ETH !SUP DEF>704]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%
 ItemDisplay[NMAG utu SOCK=0 ETH !SUP DEF>711]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth
 ItemDisplay[NMAG ung SOCK=0 ETH !SUP DEF>719]: %NAME% %BLUE%eth
 ItemDisplay[NMAG urs SOCK=0 ETH !SUP DEF>739]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth
-ItemDisplay[NMAG utp SOCK=0 ETH !SUP DEF>749]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth
+ItemDisplay[NMAG utp SOCK=0 ETH !SUP]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth
 ItemDisplay[NMAG uhn SOCK=0 ETH !SUP DEF>749]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth
 ItemDisplay[NMAG upl SOCK=0 ETH !SUP DEF>764]: %NAME% %BLUE%eth
 ItemDisplay[NMAG uld SOCK=0 ETH !SUP DEF>774]: %NAME% %BLUE%eth
@@ -873,7 +873,7 @@ ItemDisplay[NMAG ula SOCK>1 ETH !SUP DEF>699]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%
 ItemDisplay[NMAG utu SOCK>1 ETH !SUP DEF>699]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG ung SOCK>1 ETH !SUP DEF>719]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG urs SOCK>1 ETH !SUP DEF>739]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG utp SOCK>1 ETH !SUP DEF>749]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG utp SOCK>1 ETH !SUP]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG uhn SOCK>1 ETH !SUP DEF>749]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG upl SOCK>1 ETH !SUP DEF>764]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG uld SOCK>1 ETH !SUP DEF>774]: %NAME% %BLUE%eth (%SOCKETS%)
@@ -950,50 +950,51 @@ ItemDisplay[NMAG 7wa SOCK=0 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%BERSERKER AXE
 ItemDisplay[NMAG 7wa SOCK>3 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%BERSERKER AXE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wa SOCK=0 ETH (ED>1 AND ED<15)]: %PURPLE%+++++ %ORANGE%Berserker Axe %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7wa SOCK>3 ETH (ED>1 AND ED<15)]: %PURPLE%+++++ %ORANGE%Berserker Axe %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wa SOCK=0 !ETH !SUP]: %NAME%
-ItemDisplay[NMAG 7wa SOCK>3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7wa SOCK=0 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
-ItemDisplay[NMAG 7wa SOCK>3 ETH !SUP]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7wa SOCK=0 !ETH !INF]: %NAME%
+ItemDisplay[NMAG 7wa SOCK>3 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7wa SOCK=0 ETH !INF]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
+ItemDisplay[NMAG 7wa SOCK>3 ETH !INF]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7mp SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%WAR SPIKE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7mp SOCK>3 ETH ED=15]: %PURPLE%+++++ %ORANGE%WAR SPIKE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7mp SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%War Spike %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7mp SOCK>3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%War Spike %RED%+++ %BLUE%eth (%SOCKETS%)
-//ItemDisplay[NMAG 7mp SOCK=0 !ETH !SUP]: %NAME%
-//ItemDisplay[NMAG 7mp SOCK>3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7mp SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 7mp SOCK>3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+//ItemDisplay[NMAG 7mp SOCK=0 !ETH !INF]: %NAME%
+//ItemDisplay[NMAG 7mp SOCK>3 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7mp SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 7mp SOCK>3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 72a SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%ETTIN AXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 72a SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%ETTIN AXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 72a SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Ettin Axe %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 72a SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Ettin Axe %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 72a SOCK>2 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 72a SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 72a SOCK>2 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 72a SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7ax SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%SMALL CRESCENT %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7ax SOCK=4 ETH ED=15]: %PURPLE%+++++ %ORANGE%SMALL CRESCENT %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7ax SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Small Crescent %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7ax SOCK=4 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Smell Crescent %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7ax SOCK=4 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7ax SOCK=4 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7ax SOCK=4 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7ax SOCK=4 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7ga SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%CHAMPION AXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7ga SOCK>3 ETH ED=15]: %PURPLE%+++++ %ORANGE%CHAMPION AXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7ga SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Champion Axe %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7ga SOCK>3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Champion Axe %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7ga SOCK>3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7ga SOCK>3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7gi SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%GLORIOUS AXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7gi SOCK>3 ETH ED=15]: %PURPLE%+++++ %ORANGE%GLORIOUS AXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7gi SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Glorious Axe %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7gi SOCK>3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Glorious Axe %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7gi SOCK>3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7gi SOCK>3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7bt SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%DECAPITATOR %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7bt SOCK>3 ETH ED=15]: %PURPLE%+++++ %ORANGE%DECAPITATOR %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7bt SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Decapitator %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7bt SOCK>3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Decapitator %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7bt SOCK>3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7bt SOCK>3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7la SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%FERAL AXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7la SOCK=4 ETH ED=15]: %PURPLE%+++++ %ORANGE%FERAL AXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7la SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Feral Axe %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7la SOCK=4 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Feral Axe %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7la SOCK=4 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7la SOCK=4 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7la SOCK=4 !ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP1 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP1 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP1 SOCK>1 ILVL>66]:
@@ -1007,24 +1008,24 @@ ItemDisplay[NMAG 7fl SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%SCOURGE %PURPLE%++
 ItemDisplay[NMAG 7fl SOCK>3 ETH ED=15]: %PURPLE%+++++ %ORANGE%SCOURGE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7fl SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Scourge %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7fl SOCK>3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Scourge %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7fl SOCK>3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7fl SOCK>3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7fl SOCK>3 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7fl SOCK>3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wh SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%%LEGENDARY MALLET %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7wh SOCK=4 ETH ED=15]: %PURPLE%+++++ %ORANGE%%LEGENDARY MALLET %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wh SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Legendary Mallet %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7wh SOCK=4 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Legendary Mallet %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wh SOCK=4 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7wh SOCK=4 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7wh SOCK=4 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7wh SOCK=4 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7m7 SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%OGRE MAUL %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7m7 SOCK>3 ETH ED=15]: %PURPLE%+++++ %ORANGE%OGRE MAUL %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7m7 SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Ogre Maul %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7m7 SOCK>3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Ogre Maul %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7m7 SOCK>3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7m7 SOCK>3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7gm SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%THUNDER MAUL %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7gm SOCK>3 ETH ED=15]: %PURPLE%+++++ %ORANGE%THUNDER MAUL %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7gm SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Thunder Maul %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7gm SOCK>3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Thunder Maul %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7gm SOCK>3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7gm SOCK>3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP2 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE% (%SOCKETS%)
 ItemDisplay[NMAG WP2 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP2 SOCK>1 ILVL>66]:
@@ -1038,63 +1039,63 @@ ItemDisplay[NMAG 7cr SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%PHASE BLADE %PURPLE%++
 ItemDisplay[NMAG 7cr SOCK>2 ED=15]: %PURPLE%+++++ %ORANGE%PHASE BLADE %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7cr SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Phase Blade %RED%+++
 ItemDisplay[NMAG 7cr SOCK>2 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Phase Blade %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7cr SOCK=0 !SUP]: %NAME%
-ItemDisplay[NMAG 7cr SOCK>2 !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7cr SOCK=0 !INF]: %NAME%
+ItemDisplay[NMAG 7cr SOCK>2 !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7bs SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%CONQUEST SWORD %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7bs SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%CONQUEST SWORD %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7bs SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Conquest Sword %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7bs SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Conquest Sword %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7bs SOCK>2 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7bs SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 7bs SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7bs SOCK>2 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7bs SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 7bs SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7ls SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%CRYPTIC SWORD %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7ls SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%CRYPTIC SWORD %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7ls SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Cryptic Sword %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7ls SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Cryptic Sword %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7ls SOCK>2 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7ls SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 7ls SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7ls SOCK>2 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7ls SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 7ls SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wd SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%MYTHICAL SWORD %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7wd SOCK=3 ETH ED=15]: %PURPLE%+++++ %ORANGE%MYTHICAL SWORD %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wd SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Mythical Sword %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7wd SOCK=3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Mythical Sword %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wd SOCK=3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7wd SOCK=3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wd SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 7wd SOCK=3 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7wd SOCK=3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7wd SOCK=0 ETH !INF]: %NAME% %BLUE%eth
 ItemDisplay[NMAG 72h SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%LEGEND SWORD %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 72h SOCK=3 ETH ED=15]: %PURPLE%+++++ %ORANGE%LEGEND SWORD %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 72h SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Legend Sword %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 72h SOCK=3 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Legend Sword %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 72h SOCK=3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 72h SOCK=3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 72h SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 72h SOCK=3 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 72h SOCK=3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 72h SOCK=0 ETH !INF]: %NAME% %BLUE%eth
 ItemDisplay[NMAG 7cm SOCK=0 ETH ED=15]: %PURPLE%+++ %ORANGE%HIGHLAND BLADE %PURPLE%+++ %BLUE%eth
 ItemDisplay[NMAG 7cm SOCK>2 ETH ED=15]: %PURPLE%+++ %ORANGE%HIGHLAND BLADE %PURPLE%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7cm SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+ %ORANGE%Highland Blade %RED%+ %BLUE%eth
 ItemDisplay[NMAG 7cm SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+ %ORANGE%Highland Blade %RED%+ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7cm SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7cm SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7gs SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%BALGROG BLADE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7gs SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%BALGROG BLADE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7gs SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Balrog Blade %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7gs SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Balrog Blade %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7gs SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7gs SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7b7 SOCK=0 ETH ED=15]: %PURPLE%+++ %ORANGE%CHAMPION SWORD %PURPLE%+++ %BLUE%eth
 ItemDisplay[NMAG 7b7 SOCK>2 ETH ED=15]: %PURPLE%+++ %ORANGE%CHAMPION SWORD %PURPLE%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7b7 SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+ %ORANGE%Champion Sword %RED%+ %BLUE%eth
 ItemDisplay[NMAG 7b7 SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+ %ORANGE%Champion Sword %RED%+ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7b7 SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7b7 SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7fb SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%COLOSSUS SWORD %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7fb SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%COLOSSUS SWORD %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7fb SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Colossus Sword %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7fb SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Colossus Sword %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7fb SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 7fb SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7fb SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 7fb SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7gd SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%COLUSSUS BLADE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7gd SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%COLUSSUS BLADE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7gd SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Colossus Blade %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7gd SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Colossus Blade %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7gd SOCK=0 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
-ItemDisplay[NMAG 7gd SOCK>2 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7gd SOCK=0 ETH !INF]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
+ItemDisplay[NMAG 7gd SOCK>2 ETH !INF]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP3 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP3 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP3 SOCK>1 ILVL>66]:
@@ -1102,7 +1103,7 @@ ItemDisplay[NMAG WP3 SOCK=0]:
 // WP4
 ItemDisplay[NMAG 7kr SOCK=3 !ETH ED=15]: %PURPLE%+++ %ORANGE%FANGED KNIFE %PURPLE%+++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7kr SOCK=3 !ETH (ED>4 AND ED<15)]: %RED%+ %ORANGE%Fanged Knife %RED%+ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7kr SOCK=3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7kr SOCK=3 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP4 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP4 SOCK>1 !ETH ILVL>66]:
 ItemDisplay[NMAG WP4 SOCK=0]:
@@ -1112,26 +1113,26 @@ ItemDisplay[NMAG 7tr SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%STYGIAN PIKE %PURP
 ItemDisplay[NMAG 7tr SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%STYGIAN PIKE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7tr SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Stygian Pike %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7tr SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Stygian Pike %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7tr SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7tr SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7br SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%MANCATCHER %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7br SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%MANCATCHER %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7br SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Mancatcher %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7br SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Mancatcher %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7br SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7br SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7st SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%GHOST SPEAR %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7st SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%GHOST SPEAR %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7st SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Ghost Spear %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7st SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Ghost Spear %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7st SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7st SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7p7 SOCK=0 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%WAR PIKE %PURPLE%++++++++++ %BLUE%eth
 ItemDisplay[NMAG 7p7 SOCK=6 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%WAR PIKE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7p7 SOCK>2 ETH ED=15]: %PURPLE%+++ %ORANGE%WAR PIKE %PURPLE%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7p7 SOCK=0 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%War Pike %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7p7 SOCK=6 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%War Pike %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7p7 SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+ %ORANGE%War Pike %RED%+ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7p7 SOCK=0 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
-ItemDisplay[NMAG 7p7 SOCK=6 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7p7 SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7p7 SOCK=0 ETH !INF]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
+ItemDisplay[NMAG 7p7 SOCK=6 ETH !INF]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7p7 SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP7 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP7 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP7 SOCK>1 ILVL>66]:
@@ -1141,46 +1142,46 @@ ItemDisplay[NMAG 7vo SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%COLOSSUS VOULGE %P
 ItemDisplay[NMAG 7vo SOCK=4 ETH ED=15]: %PURPLE%+++++ %ORANGE%COLOSSUS VOULGE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7vo SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Colossus Voulge %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7vo SOCK=4 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Colossus Voulge %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7vo SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 7vo SOCK=4 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7vo SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 7vo SOCK=4 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7s8 SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%THRESHER %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7s8 SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%THRESHER %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7s8 SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%THRESHER %PURPLE%+++++ %BLUE%eth(%SOCKETS%)
 ItemDisplay[NMAG 7s8 SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Thresher %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7s8 SOCK=4 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Thresher %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7s8 SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Thresher %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7s8 SOCK=0 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
-ItemDisplay[NMAG 7s8 SOCK=4 ETH !SUP]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7s8 SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7s8 SOCK=5 !ETH]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7s8 SOCK=0 ETH !INF]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
+ItemDisplay[NMAG 7s8 SOCK=4 ETH !INF]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7s8 SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7s8 SOCK>4 !ETH !INF]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%GIANT THRESHER %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7wc SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%GIANT THRESHER %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%GIANT THRESHER %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Giant Thresher %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7wc SOCK=4 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Giant Thresher %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Giant Thresher %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wc SOCK=0 ETH !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
-ItemDisplay[NMAG 7wc SOCK=4 ETH !SUP]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wc SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wc SOCK=5 !ETH]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7wc SOCK=0 ETH !INF]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
+ItemDisplay[NMAG 7wc SOCK=4 ETH !INF]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7wc SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7wc SOCK>4 !ETH !INF]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%CRYPITC AXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7pa SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%CRYPITC AXE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%CRYPTIC AXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Cryptic Axe %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7pa SOCK=4 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Cryptic Axe %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Cryptic Axe %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7pa SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 7pa SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7pa SOCK=5 !ETH]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7pa SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 7pa SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7pa SOCK>4 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%GREAT POLEAXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7h7 SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%GREAT POLEAXE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%GREAT POLEAXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Great Poleaxe %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7h7 SOCK=4 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Great Poleaxe %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK=2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Great Poleaxe %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7h7 SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 7h7 SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7h7 SOCK=5 !ETH]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7h7 SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 7h7 SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7h7 SOCK=5 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP8 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP8 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP8 SOCK>1 ILVL>66]:
@@ -1190,32 +1191,32 @@ ItemDisplay[NMAG 6hb SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%BLADE BOW %PURPLE%++++
 ItemDisplay[NMAG 6hb SOCK=4 ED=15]: %PURPLE%+++++ %ORANGE%BLADE BOW %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6hb SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Blade Bow %RED%+++
 ItemDisplay[NMAG 6hb SOCK=4 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Blade Bow %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 6hb SOCK=4 !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 6hb SOCK=4 !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6cb SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%GREAT BOW %PURPLE%+++++
 ItemDisplay[NMAG 6cb SOCK=4 ED=15]: %PURPLE%+++++ %ORANGE%GREAT BOW %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6cb SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Great Bow %RED%+++
 ItemDisplay[NMAG 6cb SOCK=4 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Great Bow %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 6cb SOCK=4 !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 6cb SOCK=4 !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6s7 SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%DIAMOND BOW %PURPLE%+++++
 ItemDisplay[NMAG 6s7 SOCK>3 ED=15]: %PURPLE%+++++ %ORANGE%DIAMOND BOW %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6s7 SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Diamond Bow %RED%+++
 ItemDisplay[NMAG 6s7 SOCK>3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Diamond Bow %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 6s7 SOCK>3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 6s7 SOCK>3 !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6sw SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%WARD BOW %PURPLE%+++++
 ItemDisplay[NMAG 6sw SOCK>3 ED=15]: %PURPLE%+++++ %ORANGE%WARD BOW %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6sw SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Ward Bow %RED%+++
 ItemDisplay[NMAG 6sw SOCK>3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Ward Bow %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 6sw SOCK>3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 6sw SOCK>3 !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6l7 SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%CRUSADER BOW %PURPLE%+++++
 ItemDisplay[NMAG 6l7 SOCK>3 ED=15]: %PURPLE%+++++ %ORANGE%CRUSADER BOW %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6l7 SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Crusader Bow %RED%+++
 ItemDisplay[NMAG 6l7 SOCK>3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Crusader Bow %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 6l7 SOCK>3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 6l7 SOCK>3 !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6lw SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%HYDRA BOW %PURPLE%+++++
 ItemDisplay[NMAG 6lw SOCK=> ED=15]: %PURPLE%+++++ %ORANGE%HYDRA BOW %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6lw SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Hydra Bow %RED%+++
 ItemDisplay[NMAG 6lw SOCK>3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Hydra Bow %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 6lw SOCK>3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 6lw SOCK>3 !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP9 SOCK>1 ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP9 SOCK>1 ILVL>66]:
 ItemDisplay[NMAG WP9 SOCK=0]:
@@ -1224,12 +1225,12 @@ ItemDisplay[NMAG 6rx SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%DEMON CROSSBOW %PURPLE
 ItemDisplay[NMAG 6rx SOCK>3 ED=15]: %PURPLE%+++++ %ORANGE%DEMON CROSSBOW %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 6rx SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Demon Crossbow %RED%+++
 ItemDisplay[NMAG 6rx SOCK>3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Demon Crossbow %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 6rx SOCK>3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 6rx SOCK>3 !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 8rx SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%CHU-KO-NU %PURPLE%+++++
 ItemDisplay[NMAG 8rx SOCK>3 ED=15]: %PURPLE%+++++ %ORANGE%CHU-KO-NU %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 8rx SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Chu-Ko-Nu %RED%+++
 ItemDisplay[NMAG 8rx SOCK>3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Chu-Ko-Nu %RED%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 8rx SOCK>3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 8rx SOCK>3 !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP10 SOCK>1 ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP10 SOCK>1 ILVL>66]:
 ItemDisplay[NMAG WP10 SOCK=0]:
@@ -1238,20 +1239,20 @@ ItemDisplay[NMAG 6cs SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%ELDER STAFF %PURPL
 ItemDisplay[NMAG 6cs SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%ELDER STAFF %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 6cs SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Elder Staff %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 6cs SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Elder Staff %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 6cs SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 6cs SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 6cs SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 6cs SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 6bs SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%SHILLELAGH %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 6bs SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%SHILLELAGH %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 6bs SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Shillelagh %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 6bs SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Shillelagh %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 6bs SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 6bs SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 6bs SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 6bs SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 6ws SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%ARCHON STAFF %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 6ws SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%ARCHON STAFF %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 6ws SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Archon Staff %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 6ws SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Archon Staff %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 6ws SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 6ws SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 6ws SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 6ws SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP11 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP11 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP11 SOCK>1 ILVL>66]:
@@ -1274,16 +1275,16 @@ ItemDisplay[NMAG 7qs SOCK=0 ETH ED=15]: %PURPLE%+++ %ORANGE%SERAPH ROD %PURPLE%+
 ItemDisplay[NMAG 7qs SOCK=3 ETH ED=15]: %PURPLE%+++ %ORANGE%SERAPH ROD %PURPLE%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7qs SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+ %ORANGE%Seraph Rod %RED%+ %BLUE%eth
 ItemDisplay[NMAG 7qs SOCK=3 ETH (ED>4 AND ED<15)]: %RED%+ %ORANGE%Seraph Rod %RED%+ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7qs SOCK=3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7qs SOCK=3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7qs SOCK=3 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7qs SOCK=3 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7ws SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%CADUCEUS %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7ws SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%CADUCEUS %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7ws SOCK=0 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Caduceus %RED%+++ %BLUE%eth
 ItemDisplay[NMAG 7ws SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Caduceus %RED%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7ws SOCK=0 !ETH !SUP]: %NAME%
-ItemDisplay[NMAG 7ws SOCK>2 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7ws SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG 7ws SOCK>2 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG 7ws SOCK=0 !ETH !INF]: %NAME%
+ItemDisplay[NMAG 7ws SOCK>2 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7ws SOCK=0 ETH !INF]: %NAME% %BLUE%eth
+ItemDisplay[NMAG 7ws SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP13 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP13 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP13 SOCK>1 ILVL>66]:
