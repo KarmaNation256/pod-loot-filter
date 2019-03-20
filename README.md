@@ -1,4 +1,4 @@
-# Pure Karma Loot Filter
+# Pure Karma (PK)
 
 ## Discord Channels
 - [Path of Diablo](https://discordapp.com/invite/0cUlOSBTPbxECO4z)
