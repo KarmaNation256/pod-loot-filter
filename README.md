@@ -1,4 +1,4 @@
-# Elitist Loot
+# Pure Karma Loot Filter
 
 ## Discord Channels
 - [Path of Diablo](https://discordapp.com/invite/0cUlOSBTPbxECO4z)
