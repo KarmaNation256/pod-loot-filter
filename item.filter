@@ -1,7 +1,7 @@
 //╔══════════════════════════════════════════╗
 //║ Look Up Item Codes @ Path of Diablo Wiki ║
-//║ Pure Karma Loot Filter 8.2               ║
-//║ Patch: Jade             	             ║
+//║ Pure Karma Loot Filter 8.5               ║
+//║ Patch: Tourmaline                        ║
 //║ By: KarmaNation	                     ║
 //╚══════════════════════════════════════════╝
 ItemDisplay[CLVL>79 GOLD<5000]:
@@ -10,7 +10,6 @@ ItemDisplay[CLVL>44 GOLD<750]:
 ItemDisplay[CLVL>24 GOLD<250]:
 ItemDisplay[CLVL<25 GOLD<100]:
 ItemDisplay[cx5]: %RED%© %PURPLE%Corrupted Orb %RED%©
-ItemDisplay[cx8]: %DGREEN%°°° %GREEN%Enchanted Orb %DGREEN%°°°
 ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷
 ItemDisplay[ma2]: %PURPLE%¤¤¤¤ %RED%TIER %PURPLE%4 %RED%MAP %PURPLE%¤¤¤¤
 ItemDisplay[ma6]: %RED%³ %GOLD%Tier %RED%3 %GOLD%Map %RED%³
@@ -466,6 +465,7 @@ ItemDisplay[SET !ID rin ILVL<87]: %GREEN%÷ %DGREEN%%NAME% %GREEN%÷
 ItemDisplay[SET !ID uar]: %GREEN%¤¤¤¤¤ %PURPLE%Immortal King's Soul Cage %GREEN%¤¤¤¤¤
 ItemDisplay[SET !ID uth]: %GREEN%¤¤¤¤¤ %PURPLE%Tal Rasha's Guardianship %GREEN%¤¤¤¤¤
 ItemDisplay[SET !ID 7qr]: %GREEN%¤¤¤¤¤ %PURPLE%Natalya's Mark %GREEN%¤¤¤¤¤
+ItemDisplay[SET !ID uhm]: %GREEN%¤¤¤¤¤ %PURPLE%Ondal's Almighty %GREEN%¤¤¤¤¤
 ItemDisplay[SET !ID xtb]: %GREEN%¤¤¤ %PURPLE%Aldur's Advance %GREEN%¤¤¤
 ItemDisplay[SET !ID ulg]: %GREEN%¤¤¤ %PURPLE%Laying of Hands %GREEN%¤¤¤
 ItemDisplay[SET !ID xhm]: %GREEN%¤¤¤ %PURPLE%Guillame's Face %GREEN%¤¤¤
@@ -509,7 +509,6 @@ ItemDisplay[SET !ID uui]: %GREEN%¤ %DGREEN%Dark Adherent %GREEN%¤
 ItemDisplay[SET !ID xlb]: %GREEN%¤ %DGREEN%Rite of Passage %GREEN%¤
 ItemDisplay[SET !ID umc]: %GREEN%¤ %DGREEN%Credendum %GREEN%¤
 ItemDisplay[SET !ID 7ma]: %GREEN%¤¤ %DGREEN%Dangoon's Teaching %GREEN%¤¤
-ItemDisplay[SET !ID uhm]: %GREEN%¤ %DGREEN%Ondal's Almighty %GREEN%¤
 ItemDisplay[SET !ID xrs]: %GREEN%¤ %DGREEN%Haemosu's Adament %GREEN%¤
 ItemDisplay[SET !ID uts]: %GREEN%¤ %DGREEN%Taebaek's Glory %GREEN%¤
 ItemDisplay[SET !ID ci0]: %GREEN%¤ %DGREEN%Naj's Circlet %GREEN%¤
@@ -522,6 +521,11 @@ ItemDisplay[SET !ID upl]: %GREEN%¤ %DGREEN%Sazabi's Ghost Liberator %GREEN%¤
 ItemDisplay[SET !ID 7wd]: %GREEN%¤ %DGREEN%Bul-Kathos' Tribal Guardian %GREEN%¤
 ItemDisplay[SET !ID 7gd]: %GREEN%¤¤ %DGREEN%Bul-Kathos' Sacred Charge %GREEN%¤¤
 ItemDisplay[SET !ID tbt]: %GREEN%¤ %DGREEN%Vidala's Fetlock %GREEN%¤
+ItemDisplay[SET !ID swb]: %GREEN%¤ %DGREEN%Arctic Horn %GREEN%¤
+ItemDisplay[SET !ID vbl CLVL<88]: %GREEN%¤ %DGREEN%Arctic Binding %GREEN%¤
+ItemDisplay[SET !ID tgl CLVL<88]: %GREEN%¤ %DGREEN%Arctic Mitts %GREEN%¤
+ItemDisplay[SET !ID qui CLVL<88]: %GREEN%¤ %DGREEN%Arctic Furs %GREEN%¤
+
 // SET Filter
 ItemDisplay[SET !ID ILVL<76]: %NAME%
 ItemDisplay[SET !ID ILVL>75]:
@@ -894,15 +898,21 @@ ItemDisplay[NMAG EQ2 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG EQ2 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG EQ2 SOCK>1 ILVL>66]:
 ItemDisplay[NMAG EQ2 SOCK=0]:
-// EQ3
-ItemDisplay[NMAG uit SOCK=4 !ETH !SUP]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uit SOCK=3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uit SOCK=0 !ETH !SUP]: %NAME%
-ItemDisplay[NMAG uit SOCK=0 !ETH SUP]: %RED%+ %GRAY%%NAME% %RED%+
-ItemDisplay[NMAG uit SOCK=4 ETH !SUP]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG uit SOCK=3 ETH !SUP]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG uit SOCK=0 ETH !SUP]: %NAME% %BLUE%eth
-ItemDisplay[NMAG uit SOCK=0 ETH SUP]: %NAME% %BLUE%eth
+// EQ3 SHIELDS
+ItemDisplay[NMAG uit SOCK=0 !ETH ED=15]: %PURPLE%+++ %GRAY%MONARCH %PURPLE%+++ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK>2 !ETH  ED=15]: %PURPLE%+++ %GRAY%MONARCH %PURPLE%+++ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=0 !ETH  (ED>4 AND ED<15)]: %PURPLE%+ %GRAY%Monarch %PURPLE%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK>2 !ETH  (ED>4 AND ED<15)]: %PURPLE%+ %GRAY%Monarch %PURPLE%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=4 !ETH]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=3 !ETH]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=0 !ETH]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=0 ETH ED=15]: %PURPLE%+++ %GRAY%MONARCH %PURPLE%+++ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG uit SOCK>2 ETH  ED=15]: %PURPLE%+++ %GRAY%MONARCH %PURPLE%+++ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=0 ETH  (ED>4 AND ED<15)]: %PURPLE%+ %GRAY%Monarch %PURPLE%+ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG uit SOCK>2 ETH  (ED>4 AND ED<15)]: %PURPLE%+ %GRAY%Monarch %PURPLE%+ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=4 ETH]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=3 ETH]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=0 ETH]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG kit SOCK=3 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG bsh SOCK=2 !ETH !SUP DEF>15]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG gts SOCK=3 !ETH !SUP DEF>30]: %NAME% %BLUE%(%SOCKETS%)
@@ -1034,8 +1044,12 @@ ItemDisplay[NMAG WP2 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP2 SOCK>1 ILVL>66]:
 ItemDisplay[NMAG WP2 SOCK=0]:
 // WP3
+
+ItemDisplay[NMAG bsd SOCK=4]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG bsd SOCK=0 (ILVL>25 AND ILVL<75)]: %WHITE%Spirit Base BS %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG crs SOCK>3 !ETH]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG crs SOCK>3 ETH]: %NAME% %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG crs SOCK=0 (ILVL>25 AND ILVL<41)]: %WHITE%Spirit Base CS %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 9cr SOCK>2 !ETH]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 9cr SOCK>2 ETH]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7cr SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%PHASE BLADE %PURPLE%+++++
@@ -1321,7 +1335,6 @@ ItemDisplay[NMAG WP6]:
 //║ Unique EQX ║
 //╚════════════╝
 ItemDisplay[UNI !ID cm3]: %GOLD%¤ Gheed's Fortune ¤
-ItemDisplay[UNI !ID cm4]: %GOLD%¤ Horadrim Sigil ¤
 ItemDisplay[UNI !ID cm1]: %PURPLE%¤¤¤¤¤¤¤¤ %RED%ANNIHILUS %PURPLE%¤¤¤¤¤¤¤¤
 ItemDisplay[UNI !ID cm2]: %PURPLE%¤¤¤¤¤¤¤¤¤ %YELLOW%TORCH %PURPLE%¤¤¤¤¤¤¤¤¤
 ItemDisplay[UNI !ID amu]: %GOLD%÷%RED%÷÷÷÷÷÷÷÷÷%GOLD%÷ %PURPLE%AMULET %GOLD%÷%RED%÷÷÷÷÷÷÷÷÷%GOLD%÷
@@ -1555,12 +1568,12 @@ ItemDisplay[UNI !ID 7gd !ETH]: %GOLD%¤¤¤¤¤¤ %PURPLE%The Grandfather %GOLD%
 ItemDisplay[UNI !ID 9cm !ETH]: %GOLD%¤¤¤ %RED%Bing Sz Wang %GOLD%¤¤¤
 ItemDisplay[UNI !ID 9cr !ETH]: %GOLD%¤¤ %RED%Ginther's Rift %GOLD%¤¤
 ItemDisplay[UNI !ID 9fb !ETH]: %GOLD%¤ %RED%Todesfaelle Flamme %GOLD%¤
+ItemDisplay[UNI !ID 9sb !ETH]: %GOLD%¤ %RED%Hexfire %GOLD%¤
+ItemDisplay[UNI !ID 9fc !ETH]: %GOLD%¤ %RED%Ali Baba %GOLD%¤
 ItemDisplay[UNI !ID 92h !ETH]: %GOLD%¤ Crainte Vomir ¤
 ItemDisplay[UNI !ID 7b7 !ETH]: %GOLD%¤ Doombringer ¤
 ItemDisplay[UNI !ID 7gs !ETH]: %GOLD%¤ Flamebellow ¤
 ItemDisplay[UNI !ID 7ls !ETH]: %GOLD%¤ Frostwind ¤
-ItemDisplay[UNI !ID 9fc !ETH]: %GOLD%¤ Ali Baba ¤
-ItemDisplay[UNI !ID 9sb !ETH]: %GOLD%¤ Hexfire ¤
 ItemDisplay[UNI !ID gsd !ETH]: %GOLD%¤ The Patriarch ¤
 ItemDisplay[UNI !ID 7sm !ETH]: %GOLD%¤ %WHITE%Djinn Slayer %GOLD%¤
 ItemDisplay[UNI !ID 7sb !ETH]: %GOLD%¤ %WHITE%Bloodmoon %GOLD%¤
@@ -1644,9 +1657,11 @@ ItemDisplay[UNI !ID 6l7]: %GOLD%¤¤¤ %RED%Eaglehorn %GOLD%¤¤¤
 ItemDisplay[UNI !ID 6sw]: %GOLD%¤ Widowmaker ¤
 ItemDisplay[UNI !ID lbb]: %GOLD%¤ Wizendraw ¤
 ItemDisplay[UNI !ID 8sw]: %GOLD%¤ Magewrath ¤
-ItemDisplay[UNI !ID 8s8]: %GOLD%¤ %WHITE%Witchwild String %GOLD%¤
-ItemDisplay[UNI !ID 8lb]: %GOLD%¤ %WHITE%Kuko Shakaku %GOLD%¤
+ItemDisplay[UNI !ID 8s8]: %GOLD%¤ Witchwild String ¤
+ItemDisplay[UNI !ID 8lb]: %GOLD%¤ Kuko Shakaku ¤
 ItemDisplay[UNI !ID 8l8]: %GOLD%¤ %WHITE%Cliffkiller %GOLD%¤
+ItemDisplay[UNI !ID hbw]: %GOLD%¤ %WHITE%Witherstring %GOLD%¤
+ItemDisplay[UNI !ID aq2]: %GOLD%????? %RED%Arrows %GOLD%?????
 // WP10
 ItemDisplay[UNI !ID rxb]: %GOLD%¤¤¤ %RED%Doomslinger %GOLD%¤¤¤
 ItemDisplay[UNI !ID 8hx]: %GOLD%¤ Buriza-Do Kyanon ¤
@@ -1655,7 +1670,7 @@ ItemDisplay[UNI !ID 6rx]: %GOLD%¤ %WHITE%Gut Siphon %GOLD%¤
 ItemDisplay[UNI !ID 8mx]: %GOLD%¤ %WHITE%Pus Spitter %GOLD%¤
 // WP11
 ItemDisplay[UNI !ID 6ws !ETH]: %GOLD%¤¤¤¤¤ %PURPLE%MANG SONG'S LESSON %GOLD%¤¤¤¤¤
-ItemDisplay[UNI !ID 6cs !ETH]: %GOLD%¤¤¤ %RED%Ondal's Wisdom %GOLD%¤¤¤
+ItemDisplay[UNI !ID 6cs !ETH]: %GOLD%¤¤¤¤¤¤ %PURPLE%Ondal's Wisdom %GOLD%¤¤¤¤¤¤
 ItemDisplay[UNI !ID 8ws !ETH]: %GOLD%¤ %RED%Skull Collector %GOLD%¤
 ItemDisplay[UNI !ID 8ss !ETH]: %GOLD%¤ Razorswitch ¤
 ItemDisplay[UNI !ID 8ls !ETH]: %GOLD%¤ Ribcracker ¤
