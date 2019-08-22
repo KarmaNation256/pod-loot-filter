@@ -1,6 +1,6 @@
 //╔══════════════════════════════════════════╗
 //║ Look Up Item Codes @ Path of Diablo Wiki ║
-//║ Pure Karma Loot Filter 8.5               ║
+//║ Pure Karma Loot Filter 8.6               ║
 //║ Patch: Tourmaline                        ║
 //║ By: KarmaNation	                     ║
 //╚══════════════════════════════════════════╝
@@ -13,8 +13,8 @@ ItemDisplay[cx5]: %RED%© %PURPLE%Corrupted Orb %RED%©
 ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷
 ItemDisplay[ma2]: %PURPLE%¤¤¤¤ %RED%TIER %PURPLE%4 %RED%MAP %PURPLE%¤¤¤¤
 ItemDisplay[ma6]: %RED%³ %GOLD%Tier %RED%3 %GOLD%Map %RED%³
-ItemDisplay[ma5]: %WHITE%² %YELLOW%Tier %WHITE%2 %YELLOW%Map %WHITE%²
-ItemDisplay[ma4]: %GREEN%¹ %DGREEN%Tier %GREEN%1 %DGREEN%Map %GREEN%¹
+ItemDisplay[ma5]: %RED%² %YELLOW%Tier %RED%2 %YELLOW%Map %RED%²
+ItemDisplay[ma4]: %RED%¹ %DGREEN%Tier %RED%1 %DGREEN%Map %RED%¹
 ItemDisplay[fed]: %GREEN%¤¤¤¤¤¤¤¤¤¤ ESSENCE ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[tes]: %BLUE%¤¤¤ ESSENCE ¤¤¤
 ItemDisplay[ceh]: %YELLOW%¤¤¤ ESSENCE ¤¤¤
@@ -42,10 +42,10 @@ ItemDisplay[CLVL<45 isc]: %BLACK%¯%DGREEN%?%BLACK%¯
 ItemDisplay[CLVL<33 tsc]: %BLACK%¯%GRAY%¶%BLACK%¯
 ItemDisplay[CLVL<80 key]: %BLACK%¯%TAN%Î%BLACK%¯
 ItemDisplay[box]: %BLACK%«§%TAN%Crafting Cube%BLACK%§»
-ItemDisplay[hp5]: %BLACK%¯%RED%ð%BLACK%¯
-ItemDisplay[mp5]: %BLACK%¯%BLUE%ð%BLACK%¯
-ItemDisplay[rvs]: %BLACK%¯%PURPLE%ð%BLACK%¯
-ItemDisplay[rvl]: %BLACK%¯%PURPLE%®%BLACK%¯
+ItemDisplay[hp5]: %BLACK%¯ %RED%ð%BLACK% ¯
+ItemDisplay[mp5]: %BLACK%¯ %BLUE%ð%BLACK% ¯
+ItemDisplay[rvs]: %BLACK%¯ %PURPLE%ð%BLACK% ¯
+ItemDisplay[rvl]: %BLACK%¯ %PURPLE%®%BLACK% ¯
 ItemDisplay[CLVL>79 hp4]:
 ItemDisplay[CLVL>48 hp3]:
 ItemDisplay[CLVL>24 hp2]:
@@ -54,14 +54,14 @@ ItemDisplay[CLVL>79 mp4]:
 ItemDisplay[CLVL>60 mp3]:
 ItemDisplay[CLVL>30 mp2]:
 ItemDisplay[CLVL>15 mp1]:
-ItemDisplay[CLVL<80 hp4]: %BLACK%¯%RED%ð%BLACK%¯
-ItemDisplay[CLVL<49 hp3]: %BLACK%¯%RED%ð%BLACK%¯
-ItemDisplay[CLVL<25 hp2]: %BLACK%¯%RED%ð%BLACK%¯
-ItemDisplay[CLVL<13 hp1]: %BLACK%¯%RED%ð%BLACK%¯
-ItemDisplay[CLVL<80 mp4]: %BLACK%¯%BLUE%ð%BLACK%¯
-ItemDisplay[CLVL<61 mp3]: %BLACK%¯%BLUE%ð%BLACK%¯
-ItemDisplay[CLVL<31 mp2]: %BLACK%¯%BLUE%ð%BLACK%¯
-ItemDisplay[CLVL<16 mp1]: %BLACK%¯%BLUE%ð%BLACK%¯
+ItemDisplay[CLVL<80 hp4]: %BLACK%¯ %RED%ð%BLACK% ¯
+ItemDisplay[CLVL<49 hp3]: %BLACK%¯ %RED%ð%BLACK% ¯
+ItemDisplay[CLVL<25 hp2]: %BLACK%¯ %RED%ð%BLACK% ¯
+ItemDisplay[CLVL<13 hp1]: %BLACK%¯ %RED%ð%BLACK% ¯
+ItemDisplay[CLVL<80 mp4]: %BLACK%¯ %BLUE%ð%BLACK% ¯
+ItemDisplay[CLVL<61 mp3]: %BLACK%¯ %BLUE%ð%BLACK% ¯
+ItemDisplay[CLVL<31 mp2]: %BLACK%¯ %BLUE%ð%BLACK% ¯
+ItemDisplay[CLVL<16 mp1]: %BLACK%¯ %BLUE%ð%BLACK% ¯
 ItemDisplay[leg]: %TAN%WIRT'§ £EG
 ItemDisplay[ear]: %RED%%NAME%
 ItemDisplay[CLVL<80 yps]: %BLACK%¯%GREEN%ð%BLACK%¯
@@ -87,7 +87,6 @@ ItemDisplay[MAG ID EQ4 !ETH TABSK0=3 IAS=20]: %PURPLE%+++++ %ORANGE%Bowazon Glov
 ItemDisplay[MAG ID EQ4 !ETH TABSK2=3 IAS=20]: %PURPLE%+++++ %ORANGE%Javazon Gloves %PURPLE%+++++
 ItemDisplay[MAG ID EQ4 !ETH TABSK50=3 IAS=20]: %PURPLE%+++++ %ORANGE%Martial Gloves %PURPLE%+++++
 // +6 Skill
-ItemDisplay[CL5 (SK274>0 AND SK275>0)]: %PURPLE%+++++ %ORANGE%BOI FLIGHT CLAW %PURPLE%+++++
 ItemDisplay[MAG CL5 ID TABSK48=3]: %PURPLE%+++++ %ORANGE%TRAP CLAW %PURPLE%+++++
 ItemDisplay[CL5 (CLSK6>0 AND SK271>2)]: %PURPLE%+++++ %ORANGE%LIGHT CLAW %PURPLE%+++++
 ItemDisplay[CL5 (CLSK6>1 AND SK271>1)]: %PURPLE%+++++ %ORANGE%LIGHT CLAW %PURPLE%+++++
@@ -659,12 +658,12 @@ ItemDisplay[NMAG CL4 SOCK=0 !ETH ILVL<67]: %NAME%
 ItemDisplay[NMAG CL4 SOCK=0 ETH ILVL<67]: %NAME% %BLUE%eth
 ItemDisplay[NMAG CL4 SOCK=0 ILVL>66]:
 // CL5
-ItemDisplay[NMAG (SK274>0 AND SK278>1) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+? %ORANGE%BoI Venom Claw
-ItemDisplay[NMAG (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+? %ORANGE%BoI Flight Claw
-ItemDisplay[NMAG (SK274>0 AND SK267>1) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+? %ORANGE%BoI Fade Claw
-ItemDisplay[NMAG (SK274>0 AND SK262>1) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+? %ORANGE%BoI WoF Claw
-ItemDisplay[NMAG (SK274>0 AND SK271>1) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+? %ORANGE%BoI LS Claw
-ItemDisplay[NMAG (SK274>0 AND SK276>1) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+? %ORANGE%BoI DS Claw
+ItemDisplay[NMAG (SK274>0 AND SK278=3) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+3 %ORANGE%BoI Venom Claw
+ItemDisplay[NMAG (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+1-3 %ORANGE%BoI Flight Claw
+ItemDisplay[NMAG (SK274>0 AND SK267=3) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+3 %ORANGE%BoI Fade Claw
+ItemDisplay[NMAG (SK274>0 AND SK262>1) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+2-3 %ORANGE%BoI WoF Claw
+ItemDisplay[NMAG (SK274>0 AND SK271=3) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+3 %ORANGE%BoI LS Claw
+ItemDisplay[NMAG (SK274>0 AND SK276=3) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %WHITE%+3 %ORANGE%BoI DS Claw
 ItemDisplay[NMAG SK261=3 SOCK=0 !9cs !7xf !7cs]: %WHITE%+3 %ORANGE%Charged Bolt Claw
 ItemDisplay[NMAG SK262=3 SOCK=0 !9cs !7xf !7cs]: %WHITE%+3 %ORANGE%Wake of Fire Claw
 ItemDisplay[NMAG SK271=3 SOCK=0 !9cs !7xf !7cs]: %WHITE%+3 %ORANGE%Lightning Sentry Claw
@@ -901,14 +900,14 @@ ItemDisplay[NMAG EQ2 SOCK=0]:
 // EQ3 SHIELDS
 ItemDisplay[NMAG uit SOCK=0 !ETH ED=15]: %PURPLE%+++ %GRAY%MONARCH %PURPLE%+++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit SOCK>2 !ETH  ED=15]: %PURPLE%+++ %GRAY%MONARCH %PURPLE%+++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uit SOCK=0 !ETH  (ED>4 AND ED<15)]: %PURPLE%+ %GRAY%Monarch %PURPLE%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=0 !ETH  (ED>4 AND ED<15)]: %PURPLE%+ %WHITE%Monarch %PURPLE%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit SOCK>2 !ETH  (ED>4 AND ED<15)]: %PURPLE%+ %GRAY%Monarch %PURPLE%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=4 !ETH]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=3 !ETH]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=0 !ETH]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uit SOCK=0 ETH ED=15]: %PURPLE%+++ %GRAY%MONARCH %PURPLE%+++ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=0 ETH ED=15]: %PURPLE%+++ %WHITE%MONARCH %PURPLE%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG uit SOCK>2 ETH  ED=15]: %PURPLE%+++ %GRAY%MONARCH %PURPLE%+++ %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG uit SOCK=0 ETH  (ED>4 AND ED<15)]: %PURPLE%+ %GRAY%Monarch %PURPLE%+ %BLUE%eth (%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=0 ETH  (ED>4 AND ED<15)]: %PURPLE%+ %WHITE%Monarch %PURPLE%+ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG uit SOCK>2 ETH  (ED>4 AND ED<15)]: %PURPLE%+ %GRAY%Monarch %PURPLE%+ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=4 ETH]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=3 ETH]: %NAME% %BLUE%eth (%SOCKETS%)
@@ -1044,7 +1043,6 @@ ItemDisplay[NMAG WP2 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP2 SOCK>1 ILVL>66]:
 ItemDisplay[NMAG WP2 SOCK=0]:
 // WP3
-
 ItemDisplay[NMAG bsd SOCK=4]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG bsd SOCK=0 (ILVL>25 AND ILVL<75)]: %WHITE%Spirit Base BS %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG crs SOCK>3 !ETH]: %NAME% %BLUE%(%SOCKETS%)
@@ -1170,7 +1168,7 @@ ItemDisplay[NMAG 7s8 SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Thresher %RE
 ItemDisplay[NMAG 7s8 SOCK=0 ETH !INF]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
 ItemDisplay[NMAG 7s8 SOCK=4 ETH !INF]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7s8 SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7s8 SOCK>4 !ETH !INF]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7s8 SOCK>3 !ETH !INF]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%GIANT THRESHER %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7wc SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%GIANT THRESHER %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%GIANT THRESHER %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
@@ -1180,7 +1178,7 @@ ItemDisplay[NMAG 7wc SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Giant Thresh
 ItemDisplay[NMAG 7wc SOCK=0 ETH !INF]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%eth
 ItemDisplay[NMAG 7wc SOCK=4 ETH !INF]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7wc SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7wc SOCK>4 !ETH !INF]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7wc SOCK>3 !ETH !INF]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%CRYPITC AXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7pa SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%CRYPITC AXE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%CRYPTIC AXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
@@ -1189,7 +1187,7 @@ ItemDisplay[NMAG 7pa SOCK=4 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Cryptic
 ItemDisplay[NMAG 7pa SOCK>2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Cryptic Axe %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7pa SOCK=0 ETH !INF]: %NAME% %BLUE%eth
 ItemDisplay[NMAG 7pa SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7pa SOCK>4 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7pa SOCK>3 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK=0 ETH ED=15]: %PURPLE%+++++ %ORANGE%GREAT POLEAXE %PURPLE%+++++ %BLUE%eth
 ItemDisplay[NMAG 7h7 SOCK=4 ETH ED=15]: %PURPLE%++++++++++ %ORANGE%GREAT POLEAXE %PURPLE%++++++++++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK>2 ETH ED=15]: %PURPLE%+++++ %ORANGE%GREAT POLEAXE %PURPLE%+++++ %BLUE%eth (%SOCKETS%)
@@ -1198,7 +1196,7 @@ ItemDisplay[NMAG 7h7 SOCK=4 ETH (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%Great P
 ItemDisplay[NMAG 7h7 SOCK=2 ETH (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Great Poleaxe %RED%+++ %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG 7h7 SOCK=0 ETH !INF]: %NAME% %BLUE%eth
 ItemDisplay[NMAG 7h7 SOCK>2 ETH !INF]: %NAME% %BLUE%eth (%SOCKETS%)
-ItemDisplay[NMAG 7h7 SOCK=5 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7h7 SOCK>3 !ETH !INF]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP8 SOCK>1 !ETH ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP8 SOCK>1 ETH ILVL<67]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG WP8 SOCK>1 ILVL>66]:
