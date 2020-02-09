@@ -465,7 +465,7 @@ ItemDisplay[RARE !ID wsp !ETH]: %NAME%
 // RARE Filter
 ItemDisplay[RARE !ID !ETH ILVL<85]: %NAME%
 ItemDisplay[RARE !ID ETH ILVL<80]: eth %NAME%
-ItemDisplay[RARE !ID ILVL>75]:
+ItemDisplay[RARE !ID ILVL>85]:
 //╔══════╗
 //║ SETS ║
 //╚══════╝
@@ -531,14 +531,15 @@ ItemDisplay[SET !ID upl]: %GREEN%¤ %DGREEN%Sazabi's Ghost Liberator %GREEN%¤
 ItemDisplay[SET !ID 7wd]: %GREEN%¤ %DGREEN%Bul-Kathos' Tribal Guardian %GREEN%¤
 ItemDisplay[SET !ID 7gd]: %GREEN%¤¤ %DGREEN%Bul-Kathos' Sacred Charge %GREEN%¤¤
 ItemDisplay[SET !ID tbt]: %GREEN%¤ %DGREEN%Vidala's Fetlock %GREEN%¤
-ItemDisplay[SET !ID swb]: %GREEN%¤ %DGREEN%Arctic Horn %GREEN%¤
+ItemDisplay[SET !ID gsc]: %GREEN%¤ %DGREEN%Civerb's Cudgel%GREEN%¤
+ItemDisplay[SET !ID swb CLVL<88]: %GREEN%¤ %DGREEN%Arctic Horn %GREEN%¤
 ItemDisplay[SET !ID vbl CLVL<88]: %GREEN%¤ %DGREEN%Arctic Binding %GREEN%¤
 ItemDisplay[SET !ID tgl CLVL<88]: %GREEN%¤ %DGREEN%Arctic Mitts %GREEN%¤
 ItemDisplay[SET !ID qui CLVL<88]: %GREEN%¤ %DGREEN%Arctic Furs %GREEN%¤
 
 // SET Filter
-ItemDisplay[SET !ID ILVL<78]: %NAME%
-ItemDisplay[SET !ID ILVL>79]:
+ItemDisplay[SET !ID ILVL<80]: %NAME%
+ItemDisplay[SET !ID ILVL>81]:
 
 //╔══════════════╗
 //║ Runeword CLX ║
@@ -837,11 +838,11 @@ ItemDisplay[NMAG EQ1 SOCK>1 ETH ILVL<76]: %NAME% %BLUE%eth (%SOCKETS%)
 ItemDisplay[NMAG EQ1 SOCK>1 ILVL>75]:
 ItemDisplay[NMAG EQ1 SOCK=0]:
 // EQ2
-ItemDisplay[NMAG brs SOCK>1 !ETH !SUP ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG ltp SOCK>1 !ETH !SUP ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG gth SOCK>1 !ETH !SUP ILVL<67]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG aar SOCK>1 !ETH !SUP ILVL<80]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG xrs SOCK>1 !ETH !SUP ILVL<80]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG brs SOCK>1 !ETH !SUP CLVL<60]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG ltp SOCK>1 !ETH !SUP CLVL<80]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG gth SOCK>1 !ETH !SUP CLVL<85]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG aar SOCK>1 !ETH !SUP CLVL<80]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG xrs SOCK>1 !ETH !SUP CLVL<80]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG xtp SOCK=3 !ETH !SUP]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG xtp SOCK=2 !ETH !SUP]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG xtp SOCK=0 !ETH !SUP DEF>249]: %NAME%
