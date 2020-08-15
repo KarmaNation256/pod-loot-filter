@@ -1,8 +1,8 @@
 //╔══════════════════════════════════════════╗
 //║ Look Up Item Codes @ Path of Diablo Wiki ║
-//║ Pure Karma Loot Filter 9.0               ║
-//║ Patch: Flint	                         ║
-//║ By: KarmaNation	                     ║
+//║ Pure Karma Loot Filter 10.0              ║
+//║ Patch: Zincite	                         ║
+//║ By: KarmaNation	                         ║
 //╚══════════════════════════════════════════╝
 ItemDisplay[CLVL>79 GOLD<5000]:
 ItemDisplay[CLVL>59 GOLD<2500]:
@@ -11,10 +11,16 @@ ItemDisplay[CLVL>24 GOLD<250]:
 ItemDisplay[CLVL<25 GOLD<100]:
 ItemDisplay[cx5]: %RED%© %PURPLE%Corrupted Orb %RED%©
 ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷
+ItemDisplay[ma1]: %RED%%NAME%
 ItemDisplay[ma2]: %PURPLE%¤¤¤¤ %RED%TIER %PURPLE%4 %RED%MAP %PURPLE%¤¤¤¤
+ItemDisplay[ma3]: %RED%%NAME%
 ItemDisplay[ma6]: %RED%³ %GOLD%Tier %RED%3 %GOLD%Map %RED%³
 ItemDisplay[ma5]: %RED%² %YELLOW%Tier %RED%2 %YELLOW%Map %RED%²
 ItemDisplay[ma4]: %RED%¹ %DGREEN%Tier %RED%1 %DGREEN%Map %RED%¹
+ItemDisplay[ma7]: %RED%%NAME%
+ItemDisplay[ma8]: %RED%%NAME%
+ItemDisplay[ma9]: %RED%%NAME%
+ItemDisplay[ma10]: %RED%%NAME%
 ItemDisplay[fed]: %GREEN%¤¤¤¤¤¤¤¤¤¤ ESSENCE ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[tes]: %BLUE%¤¤¤ ESSENCE ¤¤¤
 ItemDisplay[ceh]: %YELLOW%¤¤¤ ESSENCE ¤¤¤
@@ -913,6 +919,8 @@ ItemDisplay[NMAG uit SOCK=0 !ETH ED=15]: %PURPLE%+++ %GRAY%Monarch %PURPLE%+++ %
 ItemDisplay[NMAG uit SOCK=4 !ETH  ED=15]: %PURPLE%+++ %GRAY%Monarch %PURPLE%+++ %BLUE%15ED (%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=0 !ETH  (ED>4 AND ED<15)]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%ED (%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=4 !ETH  (ED>4 AND ED<15)]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%ED (%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=4 !ETH ITEMSTAT91>0]: %RED%++ %GRAY%Monarch %RED%++ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=4 !ETH ITEMSTAT91>0]: %RED%++ %GRAY%Monarch %RED%++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=4 !ETH !INF]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=0 !ETH !INF]: %NAME%
 ItemDisplay[NMAG kit SOCK=3 !ETH !SUP ILVL<79]: %NAME% %BLUE%(%SOCKETS%)
