@@ -12,11 +12,11 @@ ItemDisplay[CLVL<25 GOLD<100]:
 ItemDisplay[cx5]: %RED%© %PURPLE%Corrupted Orb %RED%©
 ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷
 ItemDisplay[ma1]: %RED%%NAME%
-ItemDisplay[ma2]: %PURPLE%¤¤¤¤ %RED%TIER %PURPLE%4 %RED%MAP %PURPLE%¤¤¤¤
+ItemDisplay[ma2]: %RED%%NAME%
 ItemDisplay[ma3]: %RED%%NAME%
-ItemDisplay[ma6]: %RED%³ %GOLD%Tier %RED%3 %GOLD%Map %RED%³
-ItemDisplay[ma5]: %RED%² %YELLOW%Tier %RED%2 %YELLOW%Map %RED%²
-ItemDisplay[ma4]: %RED%¹ %DGREEN%Tier %RED%1 %DGREEN%Map %RED%¹
+ItemDisplay[ma6]: %RED%%NAME%
+ItemDisplay[ma5]: %RED%%NAME%
+ItemDisplay[ma4]: %RED%%NAME%
 ItemDisplay[ma7]: %RED%%NAME%
 ItemDisplay[ma8]: %RED%%NAME%
 ItemDisplay[ma9]: %RED%%NAME%
