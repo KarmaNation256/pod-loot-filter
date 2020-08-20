@@ -14,9 +14,9 @@ ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷
 ItemDisplay[ma1]: %RED%%NAME%
 ItemDisplay[ma2]: %RED%%NAME%
 ItemDisplay[ma3]: %RED%%NAME%
-ItemDisplay[ma6]: %RED%%NAME%
-ItemDisplay[ma5]: %RED%%NAME%
 ItemDisplay[ma4]: %RED%%NAME%
+ItemDisplay[ma5]: %RED%%NAME%
+ItemDisplay[ma6]: %RED%%NAME%
 ItemDisplay[ma7]: %RED%%NAME%
 ItemDisplay[ma8]: %RED%%NAME%
 ItemDisplay[ma9]: %RED%%NAME%
@@ -904,6 +904,10 @@ ItemDisplay[NMAG EQ2 SOCK=0 !ETH EXC ED=15]: %PURPLE%+ %GRAY%%NAME% %PURPLE%+ %B
 ItemDisplay[NMAG EQ2 SOCK>2 !ETH EXC ED=15]: %PURPLE%+ %GRAY%%NAME% %PURPLE%+ %BLUE%15ED (%SOCKETS%)
 ItemDisplay[NMAG EQ2 SOCK=0 !ETH ELT ED=15]: %PURPLE%+++ %GRAY%%NAME% %PURPLE%+++ %BLUE%15ED (%SOCKETS%)
 ItemDisplay[NMAG EQ2 SOCK>2 !ETH ELT ED=15]: %PURPLE%+++ %GRAY%%NAME% %PURPLE%+++ %BLUE%15ED (%SOCKETS%)
+ItemDisplay[NMAG EQ2 SOCK=0 !ETH EXC ITEMSTAT91>0]: %GRAY%%NAME% %BLUE%-Req (%SOCKETS%)
+ItemDisplay[NMAG EQ2 SOCK>2 !ETH EXC ITEMSTAT91>0]: %GRAY%%NAME% %BLUE%-Req (%SOCKETS%)
+ItemDisplay[NMAG EQ2 SOCK=0 !ETH ELT ITEMSTAT91>0]: %GRAY%%NAME% %BLUE%-Req (%SOCKETS%)
+ItemDisplay[NMAG EQ2 SOCK>2 !ETH ELT ITEMSTAT91>0]: %GRAY%%NAME% %BLUE%-Req (%SOCKETS%)
 ItemDisplay[NMAG EQ2 SOCK=0 !ETH ELT (ED>4 AND ED<15)]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%ED (%SOCKETS%)
 ItemDisplay[NMAG EQ2 SOCK>2 !ETH ELT (ED>4 AND ED<15)]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%ED (%SOCKETS%)
 ItemDisplay[NMAG EQ2 SOCK=0 ETH ELT ED=15]: %PURPLE%+++ %GRAY%%NAME% %PURPLE%+++ %BLUE%eth 15ED (%SOCKETS%)
@@ -919,8 +923,8 @@ ItemDisplay[NMAG uit SOCK=0 !ETH ED=15]: %PURPLE%+++ %GRAY%Monarch %PURPLE%+++ %
 ItemDisplay[NMAG uit SOCK=4 !ETH  ED=15]: %PURPLE%+++ %GRAY%Monarch %PURPLE%+++ %BLUE%15ED (%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=0 !ETH  (ED>4 AND ED<15)]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%ED (%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=4 !ETH  (ED>4 AND ED<15)]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%ED (%SOCKETS%)
-ItemDisplay[NMAG uit SOCK=4 !ETH ITEMSTAT91>0]: %RED%++ %GRAY%Monarch %RED%++ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uit SOCK=4 !ETH ITEMSTAT91>0]: %RED%++ %GRAY%Monarch %RED%++ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=0 !ETH ITEMSTAT91>0]: %RED%++ %GRAY%Monarch %RED%++ %BLUE%-Req(%SOCKETS%)
+ItemDisplay[NMAG uit SOCK=4 !ETH ITEMSTAT91>0]: %RED%++ %GRAY%Monarch %RED%++ %BLUE%-Req(%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=4 !ETH !INF]: %RED%+ %GRAY%Monarch %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit SOCK=0 !ETH !INF]: %NAME%
 ItemDisplay[NMAG kit SOCK=3 !ETH !SUP ILVL<79]: %NAME% %BLUE%(%SOCKETS%)
@@ -1059,6 +1063,8 @@ ItemDisplay[NMAG 7cr SOCK=0 ED=15]: %PURPLE%+ %ORANGE%Phase Blade %PURPLE%+ %BLU
 ItemDisplay[NMAG 7cr SOCK>2 ED=15]: %PURPLE%+++ %ORANGE%Phase Blade %PURPLE%+++ %BLUE%15ED (%SOCKETS%)
 ItemDisplay[NMAG 7cr SOCK=0 (ED>4 AND ED<15)]: %RED%+ %ORANGE%Phase Blade %RED%+ %BLUE%ED (%SOCKETS%)
 ItemDisplay[NMAG 7cr SOCK>2 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Phase Blade %RED%+++ %BLUE%ED (%SOCKETS%)
+ItemDisplay[NMAG 7cr SOCK=0 ITEMSTAT91>0]: %GRAY%%NAME% %BLUE%-Req (%SOCKETS%)
+ItemDisplay[NMAG 7cr SOCK>2 ITEMSTAT91>0]: %GRAY%%NAME% %BLUE%-Req (%SOCKETS%)
 ItemDisplay[NMAG 7cr SOCK=0 !INF]: %NAME%
 ItemDisplay[NMAG 7cr SOCK>2 !INF]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG 7bs SOCK=0 ETH ED=15]: %PURPLE%+ %ORANGE%Conquest Sword %PURPLE%+ %BLUE%eth 15ED (%SOCKETS%)
