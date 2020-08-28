@@ -43,7 +43,7 @@ ItemDisplay[ibk]: %BLACK%«%RED%ID Tome%BLACK%»
 ItemDisplay[tbk]: %BLACK%«%BLUE%TP Tome%BLACK%»
 ItemDisplay[CLVL>44 isc]:
 ItemDisplay[CLVL>32 tsc]:
-ItemDisplay[CLVL>81 key]:
+ItemDisplay[CLVL>79 key]:
 ItemDisplay[CLVL<45 isc]: %BLACK%¯%DGREEN%?%BLACK%¯
 ItemDisplay[CLVL<33 tsc]: %BLACK%¯%GRAY%¶%BLACK%¯
 ItemDisplay[CLVL<80 key]: %BLACK%¯%TAN%Î%BLACK%¯
