@@ -317,9 +317,9 @@ ItemDisplay[MAG !ID ci2 !ETH]: %RED%÷ %BLUE%%NAME% %RED%÷
 ItemDisplay[MAG !ID ci3 !ETH]: %RED%÷ %BLUE%%NAME% %RED%÷
 ItemDisplay[MAG !ID jew]: %RED%¤%ORANGE%¤%YELLOW%¤%GREEN%¤ %BLUE%%NAME% %GREEN%¤%YELLOW%¤%ORANGE%¤%RED%¤ 
 // MAG Filter
-ItemDisplay[MAG !ID (9cs or 9lw or 9tw or 9qr or 7ar or 7wb or 7xf or 7cs or 7lw ) ILVL>79]: %NAME%
-ItemDisplay[MAG !ID (7tw or 7qr)]: %NAME%
-ItemDisplay[MAG !ID (amf or ama or am5) ILVL>70]: %NAME%
+ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw ) ILVL>79]: %NAME%
+ItemDisplay[MAG !ID (7tw OR 7qr)]: %NAME%
+ItemDisplay[MAG !ID (amf OR ama OR am5) ILVL>70]: %NAME%
 ItemDisplay[MAG !ID aq2 ILVL<67]: × %NAME% ×
 ItemDisplay[MAG !ID cq2 ILVL<67]: × %NAME% ×
 ItemDisplay[MAG !ID !ETH ILVL<67]: %NAME%
